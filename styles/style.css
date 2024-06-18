@@ -558,7 +558,7 @@ div.previous-next {
 
 /*
  On screens that are 600px wide or less, make the buttons smaller*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 25rem) {
   .buttonprevious {
      border:none;
     background-color: #AFE1AF; 
@@ -601,6 +601,28 @@ div.previous-next {
     float: right;
     margin-bottom: 2.5rem;
 }
+
+/*
+ On screens that are 600px wide or less, make the buttons smaller*/
+@media screen and (max-width: 25rem) {
+  .buttonnext {
+     border:none;
+    background-color: #AFE1AF; 
+  color: black;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+    font-weight: 700;
+      transition-duration: 0.2s;
+    margin-top: 1.5rem;
+    margin-left: .5rem;
+    float: left;
+    margin-bottom: 2.5rem;
+  }
+}
+
 
 .buttonnext:hover {
   background-color: #04AA6D;
