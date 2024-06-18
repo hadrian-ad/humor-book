@@ -166,7 +166,7 @@ a:active {
     body {
 /*        margin: 0% 10% 10% 10%;*/
         padding: 0% 10% 10% 10%;
-        font-family:"Nunito","Calibri","Tahoma",sans-serif;
+        font-family:"Nunito", "Tahoma", "Calibri",sans-serif;
         font-size: 1rem;
         max-width: 40rem;
         background-color: white;
