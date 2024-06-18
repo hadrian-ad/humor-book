@@ -536,14 +536,6 @@ div.previous-next {
     margin-bottom: 2rem;
 } 
 
-/*
- On screens that are 600px wide or less, make the buttons smaller*/
-@media screen and (max-width: 600px) {
-  .div.previous-next {
-    font-size:.8rem
-  }
-}
-
 
 /* BUTTON Previous */
 
@@ -562,6 +554,27 @@ div.previous-next {
     margin-left: 1rem;
     float: left;
     margin-bottom: 2.5rem;
+}
+
+/*
+ On screens that are 600px wide or less, make the buttons smaller*/
+@media screen and (max-width: 600px) {
+  .buttonprevious {
+     border:none;
+    background-color: #AFE1AF; 
+  color: black;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+    font-weight: 700;
+      transition-duration: 0.2s;
+    margin-top: 1.5rem;
+    margin-left: .5rem;
+    float: left;
+    margin-bottom: 2.5rem;
+  }
 }
 
 .buttonprevious:hover {
