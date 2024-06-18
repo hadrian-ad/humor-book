@@ -162,14 +162,12 @@ a:active {
 
 /*MAIN TEXT STUFF*/
    
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-
 
     body {
 /*        margin: 0% 10% 10% 10%;*/
         padding: 0% 10% 10% 10%;
         font-family:"Nunito","Calibri","Tahoma",sans-serif;
-        font-size: 1erm;
+        font-size: 1rem;
         max-width: 40rem;
         background-color: white;
         margin:auto;
