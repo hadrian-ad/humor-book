@@ -1,0 +1,864 @@
+html {
+background-color: lightgrey;
+}
+
+/*NAVTOP*/
+
+
+div.topnav {
+    margin-top: 6%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: none;
+    border-right: black solid .1rem;
+    border-left: black solid .1rem;
+    border-bottom: black solid .1rem;
+    border-top: black solid .5rem;
+  overflow: hidden;
+  margin-bottom: .50rem;
+   
+    
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: .8rem .7em;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'nunito';
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/*NAVBOTTOM*/
+
+navbottom {
+  
+}
+
+/*
+    nav {
+        background-color: grey;
+        margin: 0px;
+        padding-left: 30px;
+        
+    }
+
+.nav a {
+  background-color: lightgreen;
+    float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    font: nunito;
+    font-size: 1em;
+    margin-bottom: 1em;
+    display: inline-block;
+}
+
+.nav a:hover {
+  background-color: seagreen;
+  color: black;
+}
+
+    nav ul {
+        margin:0;
+        background-color:seagreen;
+        padding-left: 12px;
+    }
+    nav ul li {
+        display: inline-block;
+        list-style-type: none;
+        width: 120px;
+        background-color: seagreen;
+    }
+    nav ul li a {
+        display: block;
+        color: azure;
+        text-decoration: none;
+        text-align: center;
+        padding: 7px 16px 7px 16px;
+    }
+    nav ul li a:hover {
+        background-color: darkseagreen;
+        color: white;
+    }
+nav p {
+    background-color:bisque;
+    display:block;
+    color:white;
+    padding:3px;
+}
+p#previous{
+    float:left;
+}
+p#next{
+    float:right;
+}
+ */
+
+/* LINKS*/
+
+a:link {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
+
+/**/
+
+
+   div.header {
+        top: 8px;
+        left: 28px;
+        color: black;
+        font-size:2.5rem;
+        font-weight:bold;
+        padding: .2em 0em 0em 0em;
+       display: block;
+}
+
+/*MAIN TEXT STUFF*/
+   
+
+
+    body {
+/*        margin: 0% 10% 10% 10%;*/
+        padding: 0% 10% 10% 10%;
+        font-family:'Nunito','Calibri','Tahoma',sans-serif;
+        font-size: 1em;
+        max-width: 40em;
+        background-color: white;
+        margin:auto;
+        
+            
+    }
+    main {
+    }
+    article {
+        margin-left:1rem;
+        margin-right:1rem;
+        margin-bottom:1rem;
+        padding:1rem;
+        background-color:darkslategray;
+        color:antiquewhite;
+}
+/*PARAGRAPHS & LISTS*/
+    p {
+        font-family: 'Nunito';
+        font-size: large;
+        margin-bottom: .6rem; 
+    }
+
+    p,li {
+        color: rgb(71,72,75); 
+        }
+    li{
+        margin-bottom: 1rem;
+}
+
+p.indentsmalltext {
+    font-size: 1rem;
+    text-indent: 5%;
+}
+
+div.consider{
+    margin-right: 15%;
+    margin-left: 5%;
+    margin-top: .5rem;
+    background-color:#f8fbfd;
+    border-left: .1rem solid #4285bd;
+    padding: .4rem
+}
+
+    p.consider{
+    font-weight: 700;
+    font-size: medium;
+    color: #264c6d;
+    padding-bottom:0px;  
+    }
+
+    p.considertext{
+    font-size: medium;
+    margin-left: 2rem;
+    margin-right: 3rem;
+    }
+
+div.for-instance{
+    margin-left: 5%;
+    margin-top: .5rem;
+    margin-right: 15%;
+    background-color:#f8fbfd;
+    border-left: .1rem solid #4285bd;
+    padding: .4rem
+}
+
+  p.for-instance{
+    font-weight: 700;
+    font-size: medium;
+    color: #264c6d;
+    margin-left: 0rem;
+    margin-bottom:0px;
+    padding-bottom:0px; 
+    }
+    p.for-instance-text{
+    font-size: medium;
+    margin-left: 2rem;
+    margin-right: 3rem;
+    }
+
+    div.box {
+        border-style:solid;
+        border: .1rem solid #C4E298;
+        padding: 0em 1rem;
+        background-color:#FBFDF8;
+        color:black;
+}
+
+div.listbox {
+        padding: 10px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+        background-color:#E8E8E8;
+        color:black;
+}
+
+    div.listbox p {
+        margin-left: 2rem;
+        padding: 10px;
+        background-color:whitesmoke;
+        color: #303030;
+        margin: .5rem
+}
+
+    p.listbox-headline {
+        margin-bottom: 0rem; 
+        padding-bottom: 0rem;
+        }
+
+    ul li.indepth {
+        margin-bottom: .5rem;
+}
+
+    ul.close-list li {
+     margin-bottom: .5rem;       
+}
+
+    p.indepth {
+        margin-top: 1rem;
+        font-size: medium;
+        margin-left:.5rem;
+        margin-right:3rem;
+}
+
+    p.lesson {
+        font-weight: 700;
+        font-size: 1.2rem;
+        color: #572E8B;
+        margin-left:3rem;
+        margin-right:3rem;
+}
+
+    p.listboxheadline {
+        font-weight: 700;
+        color: darkred;
+        margin-left:3rem;
+        margin-right:3rem;
+}
+
+/*HEADINGS*/
+    .content-area {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 50px;
+    }
+    h1,h2,h3,h4 {
+        color: seagreen; 
+        font-family: 'Nunito';      
+    }
+
+h1 {
+      padding-top: 1.5rem; 
+        margin-top:0rem;
+        }
+  
+    h2,h3 {
+        margin-bottom: 0px;
+    }
+    h4 {
+        margin-left: 3%;
+    }
+
+/* pseudo-HEADER FOR FAQ */
+    p.faq-question {
+        font-family: 'nunito';
+        font-size: 1.2rem;
+        margin-bottom: 0rem;
+        color: #36454F;
+        font-weight: 700;
+}
+
+    h2+p,h3+p {
+        margin: 0px;
+    }
+    ul, ol {
+        margin-top: 1.2rem;
+        font-size: 'large';
+    }
+
+/*TEXT STYLES*/
+/*italic in original*/
+/*
+em = I REALLY mean it
+emotions = He feels ANGER
+term = We'll learn about MISTAKES
+example
+callback = We shouldn't be rude. ("WHEN MY SHIT TURNS BLUE")*/
+
+    em {
+        font-style:italic;
+        color: indianred;
+        font-weight: 700
+    }
+    emotions{
+    font-style:italic;
+    font-weight: 700;
+    font-variant: small-caps;
+}
+    term{
+    font-style:italic;
+    font-weight: 700;
+    color: green;
+    }
+
+callback{
+    font-style:italic;
+    color: #434e7a;
+    }
+/*underlined in original*/
+    strong {   
+}
+headline/*e.g. first word of boxes*/ {
+    font-weight:1000;
+}
+/*TEXT STYLES FOR VIGNETTES*/
+/* 
+<div class="vignette">
+<h2>if vignette has a header
+Narration
+speaker: *action* (internalaction) "Speech" (&larr;notes)    
+<p class="vig-indent">-
+<P class="vig-indent"> Contrast example
+<p class="vig-or"> - OR -
+<P class="vig-indent"> Contrast example
+
+<h2>This is an example of the above format</h2>
+Justin sees book editors.
+Justin: *waves* (happily) "Hey everyone!" (&larr;humor) 
+    -
+    Book editors: "Hey!"
+        - OR -
+    Book editors: "Ugh."
+
+Note that "vig-or" is also used for - Later - as well as -OR -
+*/
+
+div.vignette {
+    font-size: .9rem;
+    margin-left: 5%;
+    margin-top: 1.5rem;
+    margin-right: 15%;
+    padding: .8rem;
+    background-color:#FDFAF8;
+    border-left: .15rem solid #BD7A42;
+    }
+
+div.vignette p {
+   margin-top: 1.2rem;
+    }
+    
+notes /*like humor/no humor and mistake/OK*/ {
+    font-weight:700;
+    font-style:normal;
+    color: darkslategrey;
+}
+
+narration{
+    color:#404040;
+    font-style: italic;
+}
+
+action{
+    font-style:italic;
+}
+internalaction{
+    font-style:italic;
+    color: #404040;
+}
+speaker{
+    font-variant: small-caps;
+    font-weight: 700;
+    
+}
+speech{
+    font-weight: 500;
+    color: ;
+}
+p.vig-indent /*for indented paragraphs*/ {
+    margin-left: 6%;
+    
+}
+p.vig-or /*for -OR-*/ {
+    margin-left: -4%;
+    font-style:italic
+}
+
+p.vig-or-indent /*for -OR-*/ {
+    margin-left: 10%;
+    font-style:italic;
+}
+
+p.indentedemphasis {
+    margin-left:10%;
+    font-style:italic
+}
+p.bookquote {
+    margin-left:6%;
+    font-style: ;
+    font-size: 1.3rem;
+   background: ;
+    color:darkblue;
+    font-family: "garamond";
+}
+
+/*chapter ending*/
+
+div.chapter-end{
+/*    border-top: solid black .2rem;*/
+    
+}
+
+div.chapter-end p{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: darkgreen;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem
+}
+
+p.nextchapter{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: green;
+}
+
+div.endofchaptersummary{
+}
+
+div.appendixlink{
+}
+
+div.endofchaptersummary{
+}
+
+/* HORIZONTAL LINES */
+
+p.line {
+  border-bottom: .3rem solid #7BD3A7;
+}
+
+div.previous-next { 
+    margin-bottom: 2rem;
+} 
+
+
+button.table-of-contents {
+
+    border:none;
+    background-color: #AFE1AF; 
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inherit;
+  font-size: 1.4rem;
+    font-family: nunito;
+    font-weight: 700;
+      transition-duration: 0.2s;
+
+}
+
+button.table-of-contents:hover {
+  background-color: seagreen;
+  color: white;
+}
+
+
+
+/* BUTTON Previous */
+
+.buttonprevious {
+  border:none;
+    background-color: #AFE1AF; 
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.4rem;
+    font-family: nunito;
+    font-weight: 700;
+      transition-duration: 0.2s;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    float: left;
+    margin-bottom: 2.5rem;
+}
+
+.buttonprevious:hover {
+  background-color: #ECFFDC;
+  color: darkslategrey;
+}
+
+
+/* BUTTON NEXT */
+
+.buttonnext {
+  border:none;
+    background-color: #AFE1AF; 
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.4rem;
+    font-family: nunito;
+    font-weight: 700;
+      transition-duration: 0.2s;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+    float: right;
+    margin-bottom: 2.5rem;
+}
+
+.buttonnext:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+/* EXAMPLE BUTTON*/
+
+.collapsible-example {
+  background-color: ;
+  color: #444;
+  cursor: pointer;
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.1rem;
+    font-family: nunito;
+    font-weight: 1000;
+    margin-top: 0rem;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active-example, .collapsible-example:hover {
+  background-color: dimgray;
+    color: antiquewhite
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content-example {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: ghostwhite;
+/*    border-bottom: dimgray solid .2rem*/
+} 
+
+.content-example p {
+} 
+
+.collapsible-example:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: .8rem;
+    font-family: "nunito";
+  color: white;
+  float: right;
+  margin-left: 1rem;
+}
+
+.active-example:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+
+
+/*BOX BUTTON*/
+
+ /* Style the button that is used to open and close the collapsible content */
+.collapsibleBOX {
+  background-color: #DAD794;
+  color: #444;
+  cursor: pointer;
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.1rem;
+    font-family: nunito;
+    font-weight: 1000;
+    margin-top: 1rem;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.activeBOX, .collapsibleBOX:hover {
+  background-color: #A29E38;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.contentBOX {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #F5FAEE;
+} 
+
+.contentBOX p {
+} 
+
+.collapsibleBOX:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: .8rem;
+    font-family: "nunito";
+  color: white;
+  float: right;
+  margin-left: 1rem;
+}
+
+.activeBOX:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+
+/*APPENDIX BUTTONS*/
+ /* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #F6E2ED;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-weight:1000;
+  font-family: Nunito;
+  font-size: 1.1rem;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #E6B3CF;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #FCF6FA;
+} 
+
+.active, .collapsible:hover {
+  background-color: #D37BA7;
+}
+
+.collapsible:after {
+   content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: .8rem;
+    font-family: "nunito";
+  color: white;
+  float: right;
+  margin-left: 1rem;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+/*PORTFOLIO*/
+    div.project {
+        clear:both;
+        margin-left: 12px;
+    }
+    div.project img {
+        float: left;
+        margin-right: 12px;
+        margin-bottom: 20px;
+        width: 150px;
+    }
+/*IMAGES*/
+    #banner {
+        width: 100%;
+        margin: 0px;
+        display: block;
+    }
+    #portrait {
+        width: 300px;
+        float:right;
+        margin: 20px;
+    }
+
+img {
+  max-width: 25em;
+  height: auto;
+}
+
+img.imgsmall {
+    max-width: 20em;
+}
+
+img.imgverysmall {
+    max-width: 15em;
+}
+
+img.img-indent /*for images accompanying indented paragraphs*/ {
+    margin-left: 6%;
+}
+
+/*WARNING used in Table of Contents*/
+
+div.warning {
+    margin: 2rem;
+    background-color: #FFF5EE;
+    padding: 1rem; 2rem; 1rem; 2rem;
+}
+
+.warning p {
+ 
+    font-size: 1.2rem;
+    background-color: #FFF5EE;
+}
+
+/*TABLE*/
+    table {
+        border: 0px;
+        table-layout:fixed;
+        border-spacing:0;
+        border-collapse: collapse;
+        border-style:solid;
+        border: 1px solid black;
+        padding:0;
+}
+    table, th, td{
+        border: 1px solid black;
+}
+    th {
+        background-color:gainsboro;
+}
+    tr {
+        text-align:center;
+    }
+/*FOOTER*/
+
+footer {
+           margin-top: 6rem;
+        border-top: solid gray .2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        height: 50px;
+        clear: both;
+    color: gray;
+    }
+
+footer.tableofcontents {
+    
+    padding-top: 1em;
+}
+
+    footer a {
+       
+        height: 50px;
+        clear: both;
+    }
+    #copyright {
+        float: left;
+    }
+    #email {
+        float: right;
+    }
+/*PAGE*/
+    @media (min-width: 768px) {
+        nav ul {
+            padding-left: 12px;
+        }
+        nav ul li {
+            float: left;
+            width: 120px;
+        }
+        .left-column {
+            flex: 0 0 100px;
+        }
+        .right-column {
+            flex: 1;
+        }
+        .center-column {
+        flex: 0 0 600px;
+        }
+        }
+    @media (max-width: 767px) {
+        nav ul {
+            padding-left: 0px;
+        }
+        nav ul li {
+            float: none;
+            width: 100%;
+            border-bottom: 1px solid white;
+        }
+        .left-column, .right-column {
+            flex: 0 0 10px;
+        }
+        .center-column {
+            flex: auto;
+        }
+    }
