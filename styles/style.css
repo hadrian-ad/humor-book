@@ -30,7 +30,7 @@ div.topnav {
   padding: .8rem .7em;
   text-decoration: none;
   font-size: 1rem;
-  font-family: 'nunito';
+  font-family: "Nunito";
 }
 
 /* Change the color of links on hover */
@@ -44,6 +44,16 @@ div.topnav {
   background-color: #04AA6D;
   color: white;
 }
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
 
 /*NAVBOTTOM*/
 
@@ -160,8 +170,8 @@ a:active {
 /*        margin: 0% 10% 10% 10%;*/
         padding: 0% 10% 10% 10%;
         font-family:'Nunito','Calibri','Tahoma',sans-serif;
-        font-size: 1em;
-        max-width: 40em;
+        font-size: 1erm;
+        max-width: 40rem;
         background-color: white;
         margin:auto;
         
@@ -179,7 +189,7 @@ a:active {
 }
 /*PARAGRAPHS & LISTS*/
     p {
-        font-family: 'Nunito';
+        font-family: "Nunito";
         font-size: large;
         margin-bottom: .6rem; 
     }
@@ -325,7 +335,7 @@ h1 {
 
 /* pseudo-HEADER FOR FAQ */
     p.faq-question {
-        font-family: 'nunito';
+        font-family: 'Nunito';
         font-size: 1.2rem;
         margin-bottom: 0rem;
         color: #36454F;
@@ -517,7 +527,7 @@ button.table-of-contents {
   text-decoration: none;
   display: inherit;
   font-size: 1.4rem;
-    font-family: nunito;
+    font-family: 'Nunito';
     font-weight: 700;
       transition-duration: 0.2s;
 
@@ -541,7 +551,7 @@ button.table-of-contents:hover {
   text-decoration: none;
   display: inline-block;
   font-size: 1.4rem;
-    font-family: nunito;
+    font-family: "Nunito";
     font-weight: 700;
       transition-duration: 0.2s;
     margin-top: 1.5rem;
@@ -567,7 +577,7 @@ button.table-of-contents:hover {
   text-decoration: none;
   display: inline-block;
   font-size: 1.4rem;
-    font-family: nunito;
+    font-family: "Nunito";
     font-weight: 700;
       transition-duration: 0.2s;
     margin-top: 1.5rem;
@@ -594,7 +604,7 @@ button.table-of-contents:hover {
   text-align: left;
   outline: none;
   font-size: 1.1rem;
-    font-family: nunito;
+    font-family: "Nunito";
     font-weight: 1000;
     margin-top: 0rem;
 }
@@ -620,7 +630,7 @@ button.table-of-contents:hover {
 .collapsible-example:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: .8rem;
-    font-family: "nunito";
+    font-family: "Nunito";
   color: white;
   float: right;
   margin-left: 1rem;
@@ -645,7 +655,7 @@ button.table-of-contents:hover {
   text-align: left;
   outline: none;
   font-size: 1.1rem;
-    font-family: nunito;
+    font-family: "Nunito";
     font-weight: 1000;
     margin-top: 1rem;
 }
@@ -669,7 +679,7 @@ button.table-of-contents:hover {
 .collapsibleBOX:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: .8rem;
-    font-family: "nunito";
+    font-family: "Nunito";
   color: white;
   float: right;
   margin-left: 1rem;
@@ -692,7 +702,7 @@ button.table-of-contents:hover {
   text-align: left;
   outline: none;
   font-weight:1000;
-  font-family: Nunito;
+  font-family: "Nunito";
   font-size: 1.1rem;
 }
 
@@ -716,7 +726,7 @@ button.table-of-contents:hover {
 .collapsible:after {
    content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: .8rem;
-    font-family: "nunito";
+    font-family: "Nunito";
   color: white;
   float: right;
   margin-left: 1rem;
@@ -745,15 +755,23 @@ button.table-of-contents:hover {
     }
     #portrait {
         width: 300px;
-        float:right;
+        float: right;
         margin: 20px;
     }
 
 img {
-  max-width: 25em;
-  height: auto;
+  max-width: 25rem;
+  width: 100%;
+    height: auto;
 }
 
+/*
+img.responsive {
+  object-fit: scale-down;
+}
+*/
+
+/*
 img.imgsmall {
     max-width: 20em;
 }
@@ -761,6 +779,7 @@ img.imgsmall {
 img.imgverysmall {
     max-width: 15em;
 }
+*/
 
 img.img-indent /*for images accompanying indented paragraphs*/ {
     margin-left: 6%;
