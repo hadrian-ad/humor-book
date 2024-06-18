@@ -2,8 +2,8 @@ html {
 background-color: lightgrey;
 }
 
-/*NAVTOP*/
 
+/*NAVTOP*/
 
 div.topnav {
     margin-top: 6%;
@@ -17,10 +17,9 @@ div.topnav {
     border-bottom: black solid .1rem;
     border-top: black solid .5rem;
   overflow: hidden;
-  margin-bottom: .50rem;
-   
-    
+  margin-bottom: .50rem;   
 }
+
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -30,7 +29,6 @@ div.topnav {
   padding: .8rem .7em;
   text-decoration: none;
   font-size: 1rem;
-  font-family: "Nunito";
 }
 
 /* Change the color of links on hover */
@@ -164,12 +162,13 @@ a:active {
 
 /*MAIN TEXT STUFF*/
    
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 
     body {
 /*        margin: 0% 10% 10% 10%;*/
         padding: 0% 10% 10% 10%;
-        font-family:'Nunito','Calibri','Tahoma',sans-serif;
+        font-family:"Nunito","Calibri","Tahoma",sans-serif;
         font-size: 1erm;
         max-width: 40rem;
         background-color: white;
@@ -189,7 +188,6 @@ a:active {
 }
 /*PARAGRAPHS & LISTS*/
     p {
-        font-family: "Nunito";
         font-size: large;
         margin-bottom: .6rem; 
     }
@@ -317,8 +315,7 @@ div.listbox {
         padding-bottom: 50px;
     }
     h1,h2,h3,h4 {
-        color: seagreen; 
-        font-family: 'Nunito';      
+        color: seagreen;       
     }
 
 h1 {
@@ -335,7 +332,6 @@ h1 {
 
 /* pseudo-HEADER FOR FAQ */
     p.faq-question {
-        font-family: 'Nunito';
         font-size: 1.2rem;
         margin-bottom: 0rem;
         color: #36454F;
@@ -517,6 +513,10 @@ div.previous-next {
 } 
 
 
+button {
+ font-family: "nunito";   
+}
+
 button.table-of-contents {
 
     border:none;
@@ -527,7 +527,6 @@ button.table-of-contents {
   text-decoration: none;
   display: inherit;
   font-size: 1.4rem;
-    font-family: 'Nunito';
     font-weight: 700;
       transition-duration: 0.2s;
 
@@ -551,7 +550,7 @@ button.table-of-contents:hover {
   text-decoration: none;
   display: inline-block;
   font-size: 1.4rem;
-    font-family: "Nunito";
+
     font-weight: 700;
       transition-duration: 0.2s;
     margin-top: 1.5rem;
@@ -577,7 +576,6 @@ button.table-of-contents:hover {
   text-decoration: none;
   display: inline-block;
   font-size: 1.4rem;
-    font-family: "Nunito";
     font-weight: 700;
       transition-duration: 0.2s;
     margin-top: 1.5rem;
@@ -604,7 +602,6 @@ button.table-of-contents:hover {
   text-align: left;
   outline: none;
   font-size: 1.1rem;
-    font-family: "Nunito";
     font-weight: 1000;
     margin-top: 0rem;
 }
@@ -630,7 +627,6 @@ button.table-of-contents:hover {
 .collapsible-example:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: .8rem;
-    font-family: "Nunito";
   color: white;
   float: right;
   margin-left: 1rem;
@@ -655,7 +651,6 @@ button.table-of-contents:hover {
   text-align: left;
   outline: none;
   font-size: 1.1rem;
-    font-family: "Nunito";
     font-weight: 1000;
     margin-top: 1rem;
 }
@@ -679,7 +674,6 @@ button.table-of-contents:hover {
 .collapsibleBOX:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: .8rem;
-    font-family: "Nunito";
   color: white;
   float: right;
   margin-left: 1rem;
@@ -702,7 +696,6 @@ button.table-of-contents:hover {
   text-align: left;
   outline: none;
   font-weight:1000;
-  font-family: "Nunito";
   font-size: 1.1rem;
 }
 
@@ -726,7 +719,6 @@ button.table-of-contents:hover {
 .collapsible:after {
    content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: .8rem;
-    font-family: "Nunito";
   color: white;
   float: right;
   margin-left: 1rem;
