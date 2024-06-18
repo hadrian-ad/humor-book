@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 html {
 background-color: lightgrey;
 }
@@ -166,7 +168,7 @@ a:active {
     body {
 /*        margin: 0% 10% 10% 10%;*/
         padding: 0% 10% 10% 10%;
-        font-family:"Nunito", "Tahoma", "Calibri",sans-serif;
+        font-family:"Nunito", "Tahoma", "Calibri", sans-serif;
         font-size: 1rem;
         max-width: 40rem;
         background-color: white;
