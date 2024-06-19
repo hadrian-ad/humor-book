@@ -435,11 +435,11 @@ internalaction{
 }
 speaker{
     font-variant: small-caps;
-    font-weight: 700;
+    font-weight: 600;
     
 }
 speech{
-    font-weight: 500;
+    font-weight: 400;
     color: ;
 }
 p.vig-indent /*for indented paragraphs*/ {
