@@ -558,7 +558,7 @@ div.previous-next {
 
 /*
  On screens that are 600px wide or less, make the buttons smaller*/
-@media screen and (max-width: 25rem) {
+@media screen and (max-width: 600px) {
   .buttonprevious {
      border:none;
     background-color: #AFE1AF; 
@@ -604,7 +604,7 @@ div.previous-next {
 
 /*
  On screens that are 600px wide or less, make the buttons smaller*/
-@media screen and (max-width: 25rem) {
+@media screen and (max-width: 600px) {
   .buttonnext {
      border:none;
     background-color: #AFE1AF; 
@@ -618,7 +618,7 @@ div.previous-next {
       transition-duration: 0.2s;
     margin-top: 1.5rem;
     margin-left: .5rem;
-    float: left;
+    float: right;
     margin-bottom: 2.5rem;
   }
 }
