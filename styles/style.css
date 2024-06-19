@@ -17,18 +17,26 @@ div.topnav {
     border-bottom: black solid .1rem;
     border-top: black solid .5rem;
   overflow: hidden;
-  margin-bottom: .50rem;   
+  margin-bottom: 1.5rem;
+    padding: 0rem;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
+
 
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
+  float:left;
+font-weight: 500;
   color: black;
-  text-align: center;
-  padding: .8rem .7em;
+  padding: 1rem;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 /* Change the color of links on hover */
@@ -767,6 +775,8 @@ div.previous-next {
 .active:after {
   content: "\2212";
 }
+
+
 
 /*PORTFOLIO*/
     div.project {
