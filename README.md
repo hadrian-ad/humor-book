@@ -8,4 +8,4 @@
 <h3>Start at the beginning</h3>
 <p>This textbook has been constructed to be read in sequence, beginning to end. If you skip chapters, you'll skip critical instruction on the model.</p>
 <h2>The textbook is under development</h2>
-<p>Additional chapters will be available as they are polished.</p>
+<p>Additional chapters will be available as they are polished. Website improvements are ongoing.</p>
