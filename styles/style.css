@@ -797,6 +797,27 @@ img {
     height: auto;
 }
 
+img.center-if-screen-is-small {
+ 
+    float: right; 
+    margin-left: 1rem;
+    margin-top: 1rem; 
+    margin-bottom: 1rem; 
+    border: solid .1rem
+    
+}
+
+@media screen and (max-width: 600px) {
+  img.center-if-screen-is-small {
+
+      float:none;
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+      
+  }
+}
+
 /*
 img.responsive {
   object-fit: scale-down;
