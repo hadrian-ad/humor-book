@@ -388,6 +388,18 @@ callback = We shouldn't be rude. ("WHEN MY SHIT TURNS BLUE")*/
     color: green;
     }
 
+humor-tell{
+    color: #8C2E64;
+    font-weight: 600;
+    font-style: italic;
+}
+
+emotion-tell{
+    color: #8C472E;
+    font-weight: 600;
+    font-style: italic;
+}
+
 callback{
     font-style:italic;
     color: #434e7a;
