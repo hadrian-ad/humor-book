@@ -69,8 +69,6 @@ font-weight: 500;
   }
 }
 
-
-
 /*NAVBOTTOM*/
 
 navbottom {
@@ -400,6 +398,12 @@ emotion-tell{
     font-style: italic;
 }
 
+p.and-so-on{
+    margin-left: 3rem;
+    font-size: 1rem;
+    font-style: italic
+}
+
 callback{
     font-style:italic;
     color: #434e7a;
@@ -713,7 +717,7 @@ div.previous-next {
 
  /* Style the button that is used to open and close the collapsible content */
 .collapsibleBOX {
-  background-color: #DAD794;
+  background-color: #F1CEE3;
   color: #444;
   cursor: pointer;
   padding: 1rem;
@@ -728,7 +732,7 @@ div.previous-next {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .activeBOX, .collapsibleBOX:hover {
-  background-color: #A29E38;
+  background-color: #d56eac;
 }
 
 /* Style the collapsible content. Note: hidden by default */
@@ -736,7 +740,7 @@ div.previous-next {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #F5FAEE;
+  background-color: #FDF8FB;
 } 
 
 .contentBOX p {
@@ -758,7 +762,7 @@ div.previous-next {
 /*APPENDIX BUTTONS*/
  /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-  background-color: #F6E2ED;
+  background-color: #DDCFEF;
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -772,7 +776,7 @@ div.previous-next {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-  background-color: #E6B3CF;
+  background-color: #C8B1E5;
 }
 
 /* Style the collapsible content. Note: hidden by default */
@@ -780,12 +784,9 @@ div.previous-next {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #FCF6FA;
+  background-color: #F9F7FC;
 } 
 
-.active, .collapsible:hover {
-  background-color: #D37BA7;
-}
 
 .collapsible:after {
    content: '\02795'; /* Unicode character for "plus" sign (+) */
