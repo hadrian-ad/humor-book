@@ -406,6 +406,7 @@ p.and-so-on{
 
 callback{
     font-style:italic;
+    font-weight: 500;
     color: #434e7a;
     }
 /*underlined in original*/
