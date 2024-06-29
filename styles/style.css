@@ -738,7 +738,7 @@ div.previous-next {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .activeBOX, .collapsibleBOX:hover {
-  background-color: #d56eac;
+  background-color: #e5a5cb;
 }
 
 /* Style the collapsible content. Note: hidden by default */
