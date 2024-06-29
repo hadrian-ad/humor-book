@@ -501,8 +501,13 @@ p.bookquote {
     font-style: ;
     font-size: 1.3rem;
    background: ;
-    color:darkblue;
+    color:black;
     font-family: "garamond";
+    font-weight: 700;
+}
+
+p.or /*for -OR-*/ {
+    font-style:italic
 }
 
 /*chapter ending*/
