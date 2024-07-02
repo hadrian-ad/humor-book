@@ -880,6 +880,24 @@ img.img-indent /*for images accompanying indented paragraphs*/ {
 
 /*WARNING used in Table of Contents*/
 
+div.about-box {
+    
+    background-color: #FDF8FB; 
+    padding: 1rem; 
+    margin: 0rem 3rem 0rem 2rem; 
+    border-right: solid .1rem #EFC6DE; 
+    border-bottom: solid .1rem #EFC6DE; 
+    font-weight: 500; 
+    color: #6E204E;
+        
+}
+
+div.about-box p {
+
+    color: #6E204E;
+
+}
+
 div.warning {
     margin: 2rem;
     background-color: #FFF5EE;
