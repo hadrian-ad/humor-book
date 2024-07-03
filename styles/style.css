@@ -895,7 +895,9 @@ div.about-box {
 
 div.warning {
     margin: 2rem;
-    background-color: #FFF5EE;
+    background-color: #FFF8F3;
+    border-right: solid .1rem #FFD0AF; 
+    border-bottom: solid .1rem #FFD0AF; 
     padding: 1rem; 2rem; 1rem; 2rem;
 }
 
