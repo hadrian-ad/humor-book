@@ -2,73 +2,6 @@ html {
 background-color: lightgrey;
 }
 
-
-/*NAVTOP*/
-
-div.topnav {
-    margin-top: 6%;
-}
-
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: none;
-    border-right: black solid .1rem;
-    border-left: black solid .1rem;
-    border-bottom: black solid .1rem;
-    border-top: black solid .5rem;
-  overflow: hidden;
-  margin-bottom: 1.5rem;
-    padding: 0rem;
-    text-align: center;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    margin: auto;
-    font-size: 1.1rem;
-    
-}
-
-
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float:left;
-font-weight: 500;
-  color: black;
-    padding: 1rem;
-  
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
-/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .topnav {
-    float: none;
-    width: 100%;
-    flex-wrap: wrap;
-    font-size: .8rem;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .topnav a {
-    padding: .5rem;
-  }
-}
-
 /*NAVBOTTOM*/
 
 navbottom {
@@ -998,3 +931,70 @@ footer.tableofcontents {
             flex: auto;
         }
     }
+
+
+/*NAVTOP*/
+
+div.topnav {
+    margin-top: 6%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: none;
+    border-right: black solid .1rem;
+    border-left: black solid .1rem;
+    border-bottom: black solid .1rem;
+    border-top: black solid .5rem;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+    padding: 0rem;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+    font-size: 1.1rem;
+    
+}
+
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float:left;
+font-weight: 500;
+  color: black;
+    padding: 1rem;
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .topnav {
+    float: none;
+    width: 100%;
+    flex-wrap: wrap;
+    font-size: .8rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a {
+    padding: .5rem;
+  }
+}
