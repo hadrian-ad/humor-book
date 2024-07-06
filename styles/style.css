@@ -183,7 +183,7 @@ a:active {
     body {
 /*        margin: 0% 10% 10% 10%;*/
         padding: 0% 10% 10% 10%;
-        font-family:"Nunito", sans-serif, "Tahoma", "Calibri";
+        font-family: "Nunito", sans-serif, "Tahoma", "Calibri";
         font-size: 1rem;
         max-width: 40rem;
         background-color: white;
@@ -900,6 +900,15 @@ div.warning {
     border-bottom: solid .1rem #FFD0AF; 
     padding: 1rem; 2rem; 1rem; 2rem;
 }
+
+div.list-in-text {
+    margin: 1rem;
+    background-color: #FBFAF7;
+    border-right: solid .1rem #CDC19B; 
+    border-bottom: solid .1rem #CDC19B; 
+    padding: 1rem 1rem 1rem 1rem
+}
+
 
 .warning p {
  
