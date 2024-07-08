@@ -197,13 +197,6 @@ div.for-instance{
     margin-right: 3rem;
     }
 
-    div.box {
-        border-style:solid;
-        border: .1rem solid #C4E298;
-        padding: 0em 1rem;
-        background-color:#FBFDF8;
-        color:black;
-}
 
 div.listbox {
         padding: 10px;
@@ -377,7 +370,7 @@ div.vignette {
     margin-right: 15%;
     padding: .8rem;
     background-color:#FDFAF8;
-    border-left: .15rem solid #BD7A42;
+    border-left: .1rem solid #BD7A42;
     }
 
 div.vignette p {
@@ -840,6 +833,26 @@ div.list-in-text {
     border-right: solid .1rem #CDC19B; 
     border-bottom: solid .1rem #CDC19B; 
     padding: 1rem 1rem 1rem 1rem
+}
+
+div.box {
+    margin: 1.5rem 1rem 1rem 2.5rem;
+    background-color: #FDF8FB;
+/*
+    border-top: solid .1rem #e5a5cb; 
+    border-left: solid .1rem #e5a5cb; 
+*/
+    border-right: solid .1rem #e5a5cb; 
+    border-bottom: solid .1rem #e5a5cb; 
+    padding: .2rem 1rem 1rem 1.2rem
+}
+
+p.headline {
+
+    font-weight:1000;
+
+
+    
 }
 
 
