@@ -239,7 +239,7 @@ div.listbox {
     p.lesson {
         font-weight: 700;
         font-size: 1.2rem;
-        color: #264c6d;
+        color: #376E9E;
         margin-left:3rem;
         margin-right:3rem;
 }
@@ -303,6 +303,13 @@ callback = We shouldn't be rude. ("WHEN MY SHIT TURNS BLUE")*/
         color: indianred;
         font-weight: 700
     }
+
+    sem {
+        font-style:italic;
+        
+        font-weight: 00
+    }
+
     emotions{
     font-style:italic;
     font-weight: 600;
@@ -317,7 +324,7 @@ callback = We shouldn't be rude. ("WHEN MY SHIT TURNS BLUE")*/
 vocab{
     font-style: ;
     font-weight: 700;
-    color: #4285bd;
+    color: #4080B8;
     }
 
 humor-outcome{
