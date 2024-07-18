@@ -239,7 +239,7 @@ div.listbox {
     p.lesson {
         font-weight: 700;
         font-size: 1.2rem;
-        color: #376E9E;
+        color: darkslategray;
         margin-left:3rem;
         margin-right:3rem;
 }
@@ -301,13 +301,13 @@ callback = We shouldn't be rude. ("WHEN MY SHIT TURNS BLUE")*/
     em {
         font-style:italic;
         color: indianred;
-        font-weight: 700
+        font-weight: 700;
     }
 
     sem {
         font-style:italic;
-        
-        font-weight: 00
+        color: 	#cd5c95;
+        font-weight: 700
     }
 
     emotions{
@@ -318,13 +318,13 @@ callback = We shouldn't be rude. ("WHEN MY SHIT TURNS BLUE")*/
     term{
     font-style:italic;
     font-weight: 700;
-    color: green;
+    color: #4080B8;
     }
 
 vocab{
     font-style: ;
     font-weight: 700;
-    color: #4080B8;
+    color: green;
     }
 
 humor-outcome{
@@ -724,7 +724,7 @@ div.previous-next {
 /*APPENDIX BUTTONS*/
  /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-  background-color: #DDCFEF;
+  background-color: #f0cedf;
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -738,7 +738,7 @@ div.previous-next {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-  background-color: #C8B1E5;
+  background-color: #cd5c95;
 }
 
 /* Style the collapsible content. Note: hidden by default */
