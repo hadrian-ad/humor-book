@@ -239,7 +239,7 @@ div.listbox {
     p.lesson {
         font-weight: 700;
         font-size: 1.2rem;
-        color: darkslategray;
+        color: #cd5c95;
         margin-left:3rem;
         margin-right:3rem;
 }
@@ -306,7 +306,7 @@ callback = We shouldn't be rude. ("WHEN MY SHIT TURNS BLUE")*/
 
     sem {
         font-style:italic;
-        color: 	#cd5c95;
+        color: 	#4080B8;
         font-weight: 700
     }
 
