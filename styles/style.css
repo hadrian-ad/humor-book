@@ -239,7 +239,7 @@ div.listbox {
     p.lesson {
         font-weight: 700;
         font-size: 1.2rem;
-        color: #cd5c95;
+        color: darkslategray;
         margin-left:3rem;
         margin-right:3rem;
 }
@@ -298,16 +298,22 @@ term = We'll learn about MISTAKES
 example
 callback = We shouldn't be rude. ("WHEN MY SHIT TURNS BLUE")*/
 
+    term{
+    font-style:italic;
+    font-weight: 700;
+    color: green ;
+    }
+
     em {
         font-style:italic;
-        color: indianred;
+        color:   #B33075  ;
         font-weight: 700;
     }
 
     sem {
         font-style:italic;
-        color: 	#4080B8;
-        font-weight: 700
+        color: ;
+        font-weight: 700;
     }
 
     emotions{
@@ -315,16 +321,12 @@ callback = We shouldn't be rude. ("WHEN MY SHIT TURNS BLUE")*/
     font-weight: 600;
     font-variant: small-caps;
 }
-    term{
-    font-style:italic;
-    font-weight: 700;
-    color: #4080B8;
-    }
+
 
 vocab{
     font-style: ;
     font-weight: 700;
-    color: green;
+    color: #2874a6;
     }
 
 humor-outcome{
