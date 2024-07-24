@@ -726,7 +726,7 @@ div.previous-next {
 /*APPENDIX BUTTONS*/
  /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-  background-color: #f0cedf;
+  background-color: #d98880;
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -740,7 +740,7 @@ div.previous-next {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-  background-color: #cd5c95;
+  background-color:    #cd6155;
 }
 
 /* Style the collapsible content. Note: hidden by default */
@@ -748,7 +748,7 @@ div.previous-next {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #F9F7FC;
+  background-color:   #f9ebea  ;
 } 
 
 
