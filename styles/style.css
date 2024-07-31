@@ -901,14 +901,16 @@ p.headline {
         border-spacing:0;
         border-collapse: collapse;
         border-style:solid;
-        border: 1px solid black;
+        border: .1rem solid gray;
         padding:0;
 }
-    table, th, td{
-        border: 1px solid black;
+
+    td {
+    
 }
     th {
-        background-color:gainsboro;
+        background-color: aliceblue;
+        font-weight: 700;
 }
     tr {
         text-align:center;
