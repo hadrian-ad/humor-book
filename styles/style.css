@@ -322,6 +322,10 @@ callback = We shouldn't be rude. ("WHEN MY SHIT TURNS BLUE")*/
     font-variant: small-caps;
 }
 
+outcome-contrast {
+    text-decoration: underline;
+    
+}
 
 vocab{
     font-style: ;
