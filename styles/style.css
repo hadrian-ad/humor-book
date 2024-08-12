@@ -316,6 +316,11 @@ callback = We shouldn't be rude. ("WHEN MY SHIT TURNS BLUE")*/
         font-weight: 700;
     }
 
+    sem-weak {
+        font-style:italic;
+        
+    }
+
     emotions{
     font-style:italic;
     font-weight: 600;
@@ -330,7 +335,7 @@ outcome-contrast {
 vocab{
     font-style: ;
     font-weight: 700;
-    color: #483248;
+    color: rebeccapurple;
     }
 
 humor-outcome{
