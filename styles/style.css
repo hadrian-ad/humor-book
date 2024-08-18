@@ -241,6 +241,10 @@ div.listbox {
      margin-bottom: .5rem;       
 }
 
+    ol.close-list li {
+     margin-bottom: .5rem;       
+}
+
     p.indepth {
         margin-top: 1rem;
         font-size: medium;
@@ -679,6 +683,9 @@ div.previous-next {
   display: none;
   overflow: hidden;
   background-color: ghostwhite;
+    border-right: .1rem solid #E1E1FF;
+    border-bottom: .1rem solid #E1E1FF;
+    
 /*    border-bottom: dimgray solid .2rem*/
 } 
 
