@@ -679,7 +679,8 @@ div.previous-next {
 
 /* Style the collapsible content. Note: hidden by default */
 .content-example {
-  padding: 0 18px;
+  padding-right: 2rem;
+padding-left: 1.5rem;
   display: none;
   overflow: hidden;
   background-color: ghostwhite;
