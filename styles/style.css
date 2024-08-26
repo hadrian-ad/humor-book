@@ -846,7 +846,8 @@ padding-left: 1.5rem;
     }
 
 img {
-  max-width: 25rem;
+ margin-top: 1rem;
+    max-width: 25rem;
   width: 100%;
     height: auto;
 }

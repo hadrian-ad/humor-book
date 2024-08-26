@@ -42,50 +42,110 @@ The Humor Book</div>
     <p>We can see this in some examples:</p>
  
 <div class="vignette">
-    <p><narration>Timothy calls Jennifer.</narration> <speech>“Jennifer, I know Sam said otherwise, but I checked with the insurance company. They said the treatment is still experimental. They won’t cover it.”</speech> <notes>(&larr;mistake)</notes></p>
-    <p class="vig-indent"><narration>Jennifer is silent for a second. Then she laughs, exhausted.</narration> <notes>(&larr;mistake is evaluated as OK)</notes> <speech>“That’s what I thought. If we hold a fundraiser, I think we should still be able to cover it.”</speech></p>
+    <p>
+        <narration>Timothy calls Jennifer.</narration>
+    </p> 
+    <p>
+        <speaker>Timothy:</speaker> <speech>“Jennifer, I know Sam said otherwise, but I checked with the insurance company. They said the treatment is still experimental. They won’t cover it.”</speech> <notes>(&larr;mistake)</notes>
+    </p>
+    <p><narration>Jennifer is silent for a second.</narration> </p> 
+    
+    <p class="vig-indent"><speaker>Jennifer:</speaker>  <action>*laughs*</action> <notes>(&larr;mistake is evaluated as OK)</notes> <internalaction>(exhausted)</internalaction> <speech>“That’s what I thought. If we hold a fundraiser, I think we should still be able to cover it.”</speech>
+    </p>
+    
+    
     <p class="vig-or-indent">- OR -</p>
-    <p class="vig-indent"><narration>Jennifer is silent for a second. Then she starts to cry.</narration> <notes>(&larr;the mistake is evaluated as not OK)</notes> <speech>“Oh my god. What are we going to do?”</speech></p>
+    <p class="vig-indent">
+    
+    <speaker>Jennifer:</speaker>  <action>*cries*</action> <notes>(&larr;mistake is evaluated as <outcome-contrast>not</outcome-contrast> OK)</notes> <internalaction>(exhausted)</internalaction> <speech>“Oh my god. What are we going to do?”</speech></p>
 </div>
     
 <div class="vignette">
-    <p><narration>Elias sees Jessica come in carrying a big box.</narration> <speech>“Jess, be careful, don’t knock the table…”</speech> <narration>The table is bumped, and a clay statue falls over. One of the arms shatters.</narration> <notes>(&larr;mistake)</notes></p>
+   <p>
+        <narration>Elias sees Jessica come in carrying a big box.</narration></p>
+    <p>
+        <speaker>Elias:</speaker> <speech>“Jess, be careful, I just bought that! Don’t knock the table…”</speech></p>
+        
+    <p>
+        <narration>The table is bumped, and a clay statue falls over. One of the arms shatter.</narration> <notes>(&larr;mistake)</notes> <narration>Elias rushes over and examines the broken statue.</narration></p> 
+        
+        <p class="vig-indent">
+            <speaker>Elias:</speaker> <speech>“You know… I think I like it this way!”</speech> <action>*laughs*</action> <notes>(&larr;mistake is evaluated as OK)</notes>
+        </p>
     
-    <p class="vig-indent"><narration>Elias rushes over and examines the broken statue.</narration> <speech>“You know… I think I like it this way!”</speech> <notes>(&larr;the mistake is evaluated as OK)</notes> <narration>He laughs.</narration></p>
   <p class="vig-or-indent">- OR -</p>
-    <p class="vig-indent"><narration>Elias rushes over and examines the broken statue.</narration> <speech>“You know… I was so proud of finding this thing and now you ruined it.”</speech> <notes>(&larr;the mistake is evaluated as not OK)</notes></p>
+    <p class="vig-indent">
+    <speaker>Elias:</speaker> <speech>“You know… I was so proud of finding this thing and now you ruined it.”</speech> <notes>(&larr;mistake is evaluated as <outcome-contrast>not</outcome-contrast> OK)</notes></p>
 </div>
     
 <div class="vignette">
-    <p><narration>Sam walks into the bedroom, tying his tie.</narration> <speech>“Jen, the kids were eaten by wolves.”</speech> <notes>(&larr;mistake)</notes></p>
-    <p class="vig-indent"><narration>Jennifer smiles while getting dressed.</narration> <speech>“Har har, I wish.”</speech> <narration>She laughs.</narration> <notes>(&larr;mistake is evaluated as OK)</notes></p>
-    <p class="vig-or-indent">- OR -</p>
-    <p class="vig-indent"><narration>Jennifer’s face turns pale.</narration> <speech>“WOLVES?!”</speech> <notes>(&larr;mistake is evaluated as not-OK)</notes></p>
-    <p class="vig-indent"><narration>She stares at Sam, flabbergasted.</narration> <notes>(&larr;mistake is still not OK)</notes></p>
-    <p class="vig-indent"><narration>Something clicks, and she covers her mouth and laughs. Sam laughs too.</narration> <notes>(&larr;mistake is evaluated as OK)</notes></p>
-</div>
+    <p>
+        <narration>Sam walks into the bedroom, tying his tie.</narration> <speech>“Jen, the kids were eaten by wolves.”</speech> <notes>(&larr;mistake)</notes>
+    </p>
 
-<div class="vignette">
-    <p><narration>Xiaowei is dropping his friend Lina off at their high school for the opening day of her play.</narration> “Break a leg!” <narration>Xiaowei says.</narration> <speech>“Also: You look nervous as hell!”</speech> <narration>Lina gives him the finger on the way out.</narration> <notes>(&larr;Lina evaluates mistake as not OK)</notes></p>
+    <p class="vig-indent">
+        <narration>Jennifer smiles while getting dressed.</narration> <speech>“Har har, I wish.”</speech> <narration>She laughs.</narration> <notes>(&larr;mistake is evaluated as OK)</notes>
+    </p>
     
-    <p class="vig-indent"><narration>Xiaowei laughs and gives a finger back as the door slams. Teasing followed by the bird was practically their secret handshake.</narration> <notes>(&larr;Xiaowei evaluates mistake as OK)</notes></p>
     <p class="vig-or-indent">- OR -</p>
-    <p class="vig-indent"><narration>Xiaowei shakes his head as the door slams.</narration> <speech>“Hmph. Asshole.”</speech> <notes>(&larr;Xiaowei evaluates mistake as not OK)</notes></p>
-</div>
-
-<div class="vignette">
-    <p><narration>Damien checks his pocket. <speech>“Where’s my wallet? Shit. Maybe I left it at the bus stop!”</speech></narration> <notes>(&larr;mistake)</notes> He gets off at the nearest stop and runs back, panicking.</p>
-    <p class="vig-indent"><narration>The wallet is still on the bench.</narration> <speech>“Phew! It IS here! Jesus Christ, how careless could I be?”</speech> <notes>(&larr;mistake is evaluated as OK)</notes> <narration>Damien picks it up and laughs.</narration></p>
-    <p class="vig-or-indent">- OR -</p>
-    <p class="vig-indent"><narration>The wallet is still on the bench.</narration> <speech>“It IS here! Jesus Christ, how could I be so fucking careless!”</speech> <notes>(&larr;mistake is evaluated as not OK)</notes> <narration>Damien kicks a trash can in anger.</narration></p>
-</div>
-
-<div class="vignette">
-    <p><narration>Two people are mountain biking when one flips on a root and tumbles down a small hill.</narration> <notes>(&larr;mistake)</notes> <speech>“Oh my god! Justin! Are you okay?”</speech> <narration>Heather calls, jumping off her bike and scrambling down to the body and bike below.</narration></p>
+    <p class="vig-indent">
     
-    <p class="vig-indent"><narration>Justin stirs and sits up.</narration> <speech>“Oof,”</speech> <narration>he says, adjusting his helmet shakily.</narration> <speech>“I’m fine!”</speech> <notes>(&larr;mistake is evaluated as OK)</notes> <narration>They look at each other and start giggling with relief.</narration></p>
+    <narration>Jennifer’s face turns pale.</narration> <speech>“WOLVES?!”</speech> <notes>(&larr;mistake is evaluated as <outcome-contrast>not</outcome-contrast> OK)</notes></p>
+    <p class="vig-indent"><narration>She stares at Sam, flabbergasted.</narration> <notes>(&larr;mistake is still evaluated as <outcome-contrast>not</outcome-contrast> OK)</notes></p>
+    <p class="vig-indent"><narration>Something clicks, and she covers her mouth and laughs. Sam laughs too.</narration> <notes>(&larr;mistake is finally evaluated as OK)</notes></p>
+</div>
+
+<div class="vignette">
+        <p>
+        <narration>Xiaowei pulls up to his high school. He's dropping his friend Lina off for the opening day of her play.</narration></p>
+        
+    <p><speaker>Xiaowei:</speaker> <speech>“Break a leg!"</speech> <internalaction>(teasing)</internalaction> <speech>“Also. You look nervous!”</speech>
+    </p>
+    <p>
+        <narration>Lina gives him the finger on the way out.</narration> <notes>(&larr;mistake)</notes>
+    </p>
+
+    <p class="vig-indent">
+        <narration>Xiaowei laughs and gives the finger back as the door slams.</narration> <notes>(&larr;mistake is evaluated as OK)</notes> <narration>Teasing followed by the bird was practically their secret handshake.</narration>
+    </p>
+    
     <p class="vig-or-indent">- OR -</p>
-    <p class="vig-indent"><narration>Justin stirs and tries worriedly to sit up. His legs are tangled in the frame of the bike.</narration> <speech>“I hope I didn’t break something,”</speech> <narration>he says. Heather tugs on her helmet with worry.</narration> <speech>“Oh gosh oh gosh.”</speech> <notes>(&larr;mistake is evaluated as not OK)</notes></p>
+    <p class="vig-indent"><narration>Xiaowei shakes his head as the door slams.</narration> <speech>“Hmph. Asshole.”</speech> <notes>(&larr;mistake is evaluated as <outcome-contrast>not</outcome-contrast> OK)</notes></p>
+</div>
+
+<div class="vignette">
+  <p>
+        <narration>Damien checks his pocket.</narration> <speech>“Where’s my wallet? Shit. Maybe I left it at the bus stop!”</speech> <notes>(&larr;mistake)</notes> <narration>He gets off at the nearest stop and runs back, panicking.</narration>
+
+    <p class="vig-indent">
+        <narration>The wallet is still on the bench, and Damien picks it up and laughs.</narration> <notes>(&larr;mistake is evaluated as OK)</notes></p> 
+        
+        <p class="vig-indent">
+    <speaker>Damien:</speaker> <speech>“Phew! It IS here! How careless could I be?”</speech>
+        </p>
+    <p class="vig-or-indent">- OR -</p>
+    <p class="vig-indent"><narration>The wallet is still on the bench, and Damien kicks a trash can in anger.</narration> <notes>(&larr;mistake is evaluated as <outcome-contrast>not</outcome-contrast> OK)</notes></p> 
+    
+    <p class="vig-indent"><speaker>Damien:</speaker> <speech>“It IS here! Jesus Christ, how could I be so fucking careless!”</speech></p>
+</div>
+
+<div class="vignette">
+    <p>
+        <narration>Justin and Heather are mountain biking when Justin flips on a root and tumbles down a small hill.</narration> <notes>(&larr;mistake)</notes></p> 
+        
+        <p>
+            <speech>“Oh my god! Justin! Are you okay?”</speech> <narration>Heather calls, jumping off her bike and scrambling down to the body and bike below.</narration>
+        </p>
+    
+
+    <p class="vig-indent">
+        <narration>Justin stirs and sits up.</narration> <speech>“Oof,”</speech> <narration>he says, adjusting his helmet shakily.</narration> “I’m fine!” <narration>They look at each other and start giggling with relief.</narration> <notes>(&larr;mistake is OK)</notes>
+    </p>
+        
+    <p class="vig-or-indent">- OR -</p>
+    <p class="vig-indent"><narration>Justin stirs and tries worriedly to sit up. His legs are tangled in the frame of the bike.</narration> <speech>“I hope I didn’t break something,”</speech> <narration>he says.</narration></p> 
+    
+    <p class="vig-indent"><narration>Heather tugs on her helmet with worry.</narration> <speech>“Oh gosh oh gosh.”</speech> <notes>(&larr;mistake is evaluated as <outcome-contrast>not</outcome-contrast> OK)</notes></p>
 </div>
 
 <div class="vignette">
@@ -93,7 +153,7 @@ The Humor Book</div>
 
     <p class="vig-indent"><narration>Something clicks in her perspective.</narration> <speech>“Well. Maybe I’d cheat on me too.”</speech> <notes>(&larr;mistake is OK)</notes> <narration>She hiccup-laughs sadly.</narration></p>
     <p class="vig-or-indent">- OR -</p>
-    <p class="vig-indent"><narration>She puts her hand on her head.</narration> <speech>“Oh my God.”</speech> <notes>(&larr;mistake is evaluated as not OK)</notes> <narration>A black despair creeps over her.</narration></p>
+    <p class="vig-indent"><narration>She puts her hand on her head.</narration> <speech>“Oh my God.”</speech> <notes>(&larr;mistake is evaluated as <outcome-contrast>not</outcome-contrast> OK)</notes> <narration>A black despair creeps over her.</narration></p>
 </div>
     
 <p>These examples help us see how an evaluation is something that someone does that pivots them toward humor or not-humor.
