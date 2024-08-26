@@ -75,7 +75,7 @@ p#next{
 
 a:link {
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:visited {
@@ -170,17 +170,17 @@ p.indentsmalltext {
 div.consider{
     margin-right: 15%;
     margin-left: 5%;
-    margin-top: .5rem;
-    background-color:#f8fbfd;
-    border-left: .1rem solid #4285bd;
-    border-bottom: .1rem solid #d9e7f2;
+    margin-top: 1rem;
+    background-color:#F3F7FB;
+    border-left: .1rem solid #729ECA;
+/*border-bottom: .1rem solid #AFC8E1;*/
     padding: .4rem
 }
 
     p.consider{
     font-weight: 700;
     font-size: medium;
-    color: #264c6d;
+    color: #254463;
     padding-bottom:0px;  
     }
 
@@ -200,9 +200,9 @@ div.for-instance{
     margin-left: 5%;
     margin-top: 1rem;
     margin-right: 15%;
-    background-color:#f8fbfd;
-    border-left: .1rem solid #4285bd;
-    border-bottom: .1rem solid #d9e7f2;
+    background-color:#F3F7FB;
+    border-left: .1rem solid #729ECA;
+/*    border-bottom: .1rem solid #d9e7f2;*/
     padding: .4rem
 }
 
@@ -215,7 +215,7 @@ div.h2{
   p.for-instance{
     font-weight: 700;
     font-size: medium;
-    color: #264c6d;
+    color: #254463;
     margin-left: 0rem;
     margin-bottom:0px;
     padding-bottom:0px; 
@@ -272,7 +272,7 @@ div.listbox {
     p.lesson {
         font-weight: 700;
         font-size: 1.2rem;
-        color: darkslategray;
+        color: #2E5B89;
         margin-left:3rem;
         margin-right:3rem;
 }
@@ -291,7 +291,7 @@ div.listbox {
         padding-bottom: 50px;
     }
     h1,h2,h3,h4 {
-        color: #2F812A;
+        color: #2E7E29;
          }
 
 h1 {
@@ -335,7 +335,8 @@ callback = We shouldn't be rude. ("WHEN MY SHIT TURNS BLUE")*/
     term{
     font-style:italic;
     font-weight: 700;
-    color: green ;
+        color: #2E892E;
+/*    color: green ;*/
     }
 
     em {
@@ -369,8 +370,9 @@ outcome-contrast {
 vocab{
     font-style: ;
     font-weight: 700;
-    color: rebeccapurple;
+    color: #892E89;
     }
+
 
 humor-outcome{
     font-weight:600;
@@ -399,8 +401,9 @@ p.and-so-on{
 callback{
     font-style:italic;
     font-weight: 500;
-    color: #434e7a;
-    }
+/*    color: #434e7a;*/
+    color: #2E5B89;    
+}
 /*underlined in original*/
     strong {   
 }
@@ -435,8 +438,8 @@ div.vignette {
     margin-top: 1.5rem;
     margin-right: 15%;
     padding: .8rem;
-    background-color:#FDFAF8;
-    border-left: .1rem solid #BD7A42;
+    background-color:#FBF7F3;
+    border-left: .1rem solid #CA9E72;
 /*    border-bottom: .1rem solid #f2e5da;*/
     }
 
@@ -895,7 +898,7 @@ div.about-box {
     
     background-color: #FDF8FB; 
     padding: 1rem; 
-    margin: 0rem 3rem 0rem 2rem; 
+    margin: 1rem 3rem 0rem 2rem; 
     border-right: solid .1rem #EFC6DE; 
     border-bottom: solid .1rem #EFC6DE; 
     font-weight: 500; 
@@ -922,13 +925,13 @@ div.list-in-text {
 
 div.box {
     margin: 1.5rem 1rem 1rem 2.5rem;
-    background-color: #FDF8FB;
+    background-color: #FBF3FB;
 /*
     border-top: solid .1rem #e5a5cb; 
     border-left: solid .1rem #e5a5cb; 
 */
-    border-right: solid .15rem #e5a5cb; 
-    border-bottom: solid .15rem #F2D1E4; 
+    border-right: solid .1rem #CA72CA; 
+    border-bottom: solid .1rem #CA72CA; 
     padding: .2rem 1rem 1rem 1.2rem
 }
 
