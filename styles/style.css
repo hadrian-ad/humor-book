@@ -446,6 +446,10 @@ div.vignette {
 div.vignette p {
    margin-top: 1.2rem;
     }
+
+.vignette humor-outcome, emotions { 
+    font-weight: 700;
+}
     
 notes /*like humor/no humor and mistake/OK*/ {
     font-weight:700;
@@ -935,6 +939,12 @@ div.box {
     border-bottom: solid .1rem #CA72CA; 
     padding: .2rem 1rem 1rem 1.2rem
 }
+
+.box p {
+    color:	;
+    
+}
+
 
 p.headline {
 
