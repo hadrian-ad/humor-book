@@ -181,7 +181,8 @@ div.consider{
     font-weight: 700;
     font-size: medium;
     color: #254463;
-    padding-bottom:0px;  
+    padding-bottom:0px;
+    padding-left: .4rem;
     }
 
     p.considertext{
@@ -218,7 +219,8 @@ div.h2{
     color: #254463;
     margin-left: 0rem;
     margin-bottom:0px;
-    padding-bottom:0px; 
+    padding-bottom:0px;
+      padding-left: .4rem;
     }
     p.for-instance-text{
     font-size: medium;
@@ -438,6 +440,7 @@ div.vignette {
     margin-top: 1.5rem;
     margin-right: 15%;
     padding: .8rem;
+    padding-left: 1.1rem;
     background-color:#FBF7F3;
     border-left: .1rem solid #CA9E72;
 /*    border-bottom: .1rem solid #f2e5da;*/
@@ -499,11 +502,11 @@ p.indentedemphasis {
 p.bookquote {
     margin-left:6%;
     font-style: ;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
    background: ;
     color:black;
-    font-family: "garamond";
-    font-weight: 700;
+    font-family:  serif;
+    font-weight: 500;
 }
 
 p.or /*for -OR-*/ {
