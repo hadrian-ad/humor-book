@@ -559,6 +559,14 @@ p.line {
 }
 
 
+
+
+iframe + .vignette {
+    
+    margin-top: 0rem;
+    
+}
+
 button {
  font-family: "nunito", sans-serif;   
 }
