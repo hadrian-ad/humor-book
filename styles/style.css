@@ -453,6 +453,11 @@ div.vignette p {
 .vignette humor-outcome, emotions { 
     font-weight: 700;
 }
+
+book-title {
+    
+    font-style: normal;
+}
     
 notes /*like humor/no humor and mistake/OK*/ {
     font-weight:700;
