@@ -93,7 +93,9 @@ a:active {
   text-decoration: none;
 }
 
-
+div a {
+font-weight: 700;
+}
 
 
 /**/
