@@ -93,6 +93,10 @@ a:active {
   text-decoration: none;
 }
 
+/*
+This bolds links in divs. The main intent is to bold the links in chapter end summaries.
+*/
+
 div a {
 font-weight: 700;
 }
@@ -330,11 +334,18 @@ h1 {
 /*TEXT STYLES*/
 /*italic in original*/
 /*
-em = I REALLY mean it
+TERM = introduces anchor idea, which is always followed by the expressive idea marked as em.
+EM = (originally stood for emphasis) em marks the expressive idea from the anchor idea. (At first we may think term, but it's actually more like em.) Doesn't always follow this styling, unfortunately. 
+SEM = (originally stood fo Single EMphasis) used to strongly highlight a key idea. 
+SEM-WEAK (originally stood for Single EMphasis-weak) This is like sem, only much less emphasis. 
+OUTCOME CONTRAST ()
+
 emotions = He feels ANGER
-term = We'll learn about MISTAKES
+
 example
 callback = We shouldn't be rude. ("WHEN MY SHIT TURNS BLUE")*/
+
+
 
     term{
     font-style:italic;
