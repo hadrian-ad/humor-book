@@ -108,9 +108,11 @@ font-weight: 700;
    div.header {
 background-color: #AFE1AF;
        color: #16432a;
-        font-size:2.5rem;
+        font-size: 2.5rem;
         font-weight:bold;
        border-left: .5rem #16432a solid;
+       border-bottom: .1rem solid #16432a;
+       border-right: .1rem solid #16432a;
         padding: .3em 0em .2em .7em;
        display: block;
 /*       margin-top: 1.5rem;*/
@@ -124,6 +126,7 @@ background-color: #AFE1AF;
        display: block;
        margin-bottom: 0rem;
        margin-top: 0rem;
+       font-family: "nunito";
 /*       margin-top: 1.5rem;*/
 }
 
@@ -133,7 +136,8 @@ background-color: #AFE1AF;
         font-weight:bold;
         padding: 0em 0em 0em 0em;
        display: block;
-       margin-top: 0rem
+       margin-top: 0rem;
+       font-family: "nunito";
 /*       margin-top: 1.5rem;*/
 }
 
@@ -1107,7 +1111,7 @@ div.topnav {
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #16432a;
-    border-right: #AFE1AF solid .5rem;
+    /*border-right: #AFE1AF solid .5rem;*/
 /*        border-top: #AFE1AF solid .5rem;*/
   overflow: hidden;
   margin-bottom: 1.5rem;
