@@ -116,6 +116,28 @@ background-color: #AFE1AF;
 /*       margin-top: 1.5rem;*/
 }
 
+   p.overtitle {
+       color: #16432a;
+        font-size:2.5rem;
+        font-weight:bold;
+        padding: 0em 0em 0em 0em;
+       display: block;
+       margin-bottom: 0rem;
+       margin-top: 0rem;
+/*       margin-top: 1.5rem;*/
+}
+
+   p.subtitle {
+       color: #16432a;
+        font-size:1.5rem;
+        font-weight:bold;
+        padding: 0em 0em 0em 0em;
+       display: block;
+       margin-top: 0rem
+/*       margin-top: 1.5rem;*/
+}
+
+
 /*
 div.chapter-end p{
     font-size: 1.4rem;
