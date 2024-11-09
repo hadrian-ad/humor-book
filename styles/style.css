@@ -495,7 +495,12 @@ div.vignette p {
 
 book-title {
     
+    font-style: italic;
+}
+
+div.vignette book-title {
     font-style: normal;
+    
 }
     
 notes /*like humor/no humor and mistake/OK*/ {
