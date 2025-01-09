@@ -572,6 +572,31 @@ margin-bottom: 1rem;
     
 }
 
+div.main-title {
+    
+    background-color: #AFE1AF;
+    border: #16432a .2rem solid;
+}
+
+p.main-title {
+    margin-top: 1.3rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #16432a; 
+}
+
+
+p.main-subtitle {
+
+font-style: italic;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #16432a 
+}
 
 .photo {
 
@@ -1141,7 +1166,7 @@ div.topnav {
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #16432a;
-    border-right: #AFE1AF solid .5rem;
+   /* border-right: #AFE1AF solid .5rem; */
 /*        border-top: #AFE1AF solid .5rem;*/
   overflow: hidden;
   margin-bottom: 1.5rem;
