@@ -111,20 +111,23 @@ background-color: #AFE1AF;
         font-size: 2.5rem;
         font-weight:bold;
        border-left: .5rem #16432a solid;
+       border-top:.5rem #16432a solid;
+       
       /* border-bottom: .1rem solid #16432a;
        border-right: .1rem solid #16432a; */
         padding: .3em 0em .2em .7em;
-       display: block;
+       display: block
 /*       margin-top: 1.5rem;*/
 }
 
    p.overtitle {
        color: #16432a;
-        font-size:2.5rem;
+        font-size:2.6rem;
         font-weight:bold;
         padding: 0em 0em 0em 0em;
        display: block;
-       margin-bottom: 0rem;
+       margin-left: 1rem;
+       margin-bottom: 1rem;
        margin-top: 0rem;
        font-family: "nunito";
 /*       margin-top: 1.5rem;*/
@@ -136,7 +139,9 @@ background-color: #AFE1AF;
         font-weight:bold;
         padding: 0em 0em 0em 0em;
        display: block;
-       margin-top: 0rem;
+       margin-top: 1rem;
+       margin-bottom: 0rem;
+       margin-left: 1rem;
        font-family: "nunito";
 /*       margin-top: 1.5rem;*/
 }
@@ -329,15 +334,18 @@ div.listbox {
          }
 
 h1 {
-      padding-top: 1.5rem; 
+      padding-top: 1rem;
         margin-top:0rem;
-        }
+    margin-left: 0rem;
+    font-size: 2rem;
+    }
   
-    h2,h3 {
+h2,h3 {
         margin-bottom: 0px;
          margin-left: ;
     }
-    h4 {
+
+h4 {
         margin-left: 3%;
     }
 
@@ -581,7 +589,7 @@ div.main-title {
 p.main-title {
     margin-top: 1.3rem;
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 6rem;
     font-weight: 700;
     color: #16432a; 
 }
@@ -598,6 +606,15 @@ font-style: italic;
     color: #16432a 
 }
 
+p.chapter-subtitle {
+
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #16432a
+    
+    }
+    
 .photo {
 
     border: .125rem, black, solid;
@@ -658,6 +675,13 @@ p.line {
 }
 
 
+div.chapter-heading {
+font-size: 2.9rem;    
+    
+
+    
+}
+
 
 
 iframe + .vignette {
@@ -679,6 +703,9 @@ button.table-of-contents {
   text-align: center;
   text-decoration: none;
   display: inherit;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0rem;
   font-size: 1.4rem;
     font-weight: 700;
       transition-duration: 0.2s;
