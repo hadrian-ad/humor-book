@@ -147,20 +147,7 @@ background-color: #AFE1AF;
 }
 
 
-/*
-div.chapter-end p{
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: #AFE1AF;
-    margin-right: 2rem;
-    margin-left: 1rem;
-    margin-bottom: 1.5rem;
-    background-color: #16432a;
-    padding: 1rem;
-    text-align: center;
-    border-right: .5rem solid #AFE1AF;
-    border-bottom: .5rem solid #AFE1AF;
-*/
+
 
 /*MAIN TEXT STUFF*/
    
@@ -571,14 +558,7 @@ p.or /*for -OR-*/ {
         margin-left:10%;
 }
 
-/*chapter ending*/
 
-div.chapter-end {
-margin-bottom: 1rem;
-    
-/*    border-top: solid black .2rem;*/
-    
-}
 
 div.main-title {
     
@@ -623,18 +603,30 @@ p.chapter-subtitle {
 
 }
 
-div.chapter-end p{
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: #AFE1AF;
-    margin-right: 2rem;
+/*chapter ending*/
+
+div.chapter-end {
+margin-right: 2rem;
     margin-left: 1rem;
     margin-bottom: 1.5rem;
     background-color: #16432a;
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1.8rem;
     text-align: center;
-    border-right: .5rem solid #AFE1AF;
-    border-bottom: .5rem solid #AFE1AF;
+    border-right: .8rem solid #AFE1AF;
+    border-bottom: .8rem solid #AFE1AF;
+        
+/*    border-top: solid black .2rem;*/
+    
+}
+
+div.chapter-end p{
+    font-size: 1.66rem;
+    font-weight: 700;
+    color: #AFE1AF;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
 }
 
 p.nextchapter{
@@ -1209,20 +1201,6 @@ div.topnav {
     
 }
 
-/*
-div.chapter-end p{
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: #AFE1AF;
-    margin-right: 2rem;
-    margin-left: 1rem;
-    margin-bottom: 1.5rem;
-    background-color: #16432a;
-    padding: 1rem;
-    text-align: center;
-    border-right: .5rem solid #AFE1AF;
-    border-bottom: .5rem solid #AFE1AF;
-*/
 
 
 
