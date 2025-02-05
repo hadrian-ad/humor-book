@@ -163,6 +163,15 @@ background-color: #AFE1AF;
         
             
     }
+
+
+div {
+    
+    -webkit-print-color-adjust: exact; 
+    color-adjust: exact;              
+    print-color-adjust: exact;
+}
+
     main {
     }
     article {
@@ -557,7 +566,6 @@ p.or /*for -OR-*/ {
     font-style:italic;
         margin-left:10%;
 }
-
 
 
 div.main-title {
