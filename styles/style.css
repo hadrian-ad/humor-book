@@ -163,6 +163,15 @@ background-color: #AFE1AF;
         
             
     }
+
+
+div {
+    
+    -webkit-print-color-adjust: exact; 
+    color-adjust: exact;              
+    print-color-adjust: exact;
+}
+
     main {
     }
     article {
@@ -557,7 +566,6 @@ p.or /*for -OR-*/ {
     font-style:italic;
         margin-left:10%;
 }
-
 
 
 div.main-title {
@@ -1066,7 +1074,7 @@ div.box {
 */
     border-right: solid .1rem #CA72CA; 
     border-bottom: solid .1rem #CA72CA; 
-    padding: .2rem 1rem 1rem 1.2rem
+    padding: 1rem 1.5rem 1rem 2rem
 }
 
 .box p {
