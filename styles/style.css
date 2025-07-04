@@ -407,6 +407,12 @@ callback = We shouldn't be rude. ("WHEN MY SHIT TURNS BLUE")*/
     font-variant: small-caps;
 }
 
+emotions-in-notes {
+    font-style:italic;
+    font-weight: 800;
+    font-variant: small-caps;
+}
+
 outcome-contrast {
     text-decoration: underline;
     
