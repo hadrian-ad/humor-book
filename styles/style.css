@@ -508,6 +508,8 @@ book-title {
     font-style: italic;
 }
 
+
+
 div.vignette book-title {
     font-style: normal;
     
@@ -623,6 +625,7 @@ div.chapter-end {
 margin-right: 2rem;
     margin-left: 1rem;
     margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
     background-color: #16432a;
     padding-top: 1rem;
     padding-bottom: 1.8rem;
