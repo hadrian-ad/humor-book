@@ -102,6 +102,7 @@ font-weight: 700;
 }
 
 
+
 /**/
 
 
@@ -142,6 +143,34 @@ background-color: #AFE1AF;
        margin-top: 1rem;
        margin-bottom: 0rem;
        margin-left: 1rem;
+       font-family: "nunito";
+/*       margin-top: 1.5rem;*/
+}
+
+}
+
+   overtitle {
+       color: #16432a;
+        font-size:2.6rem;
+        font-weight:bold;
+        padding: 0em 0em 0em 0em;
+       display: block;
+       margin-left: 1rem;
+       margin-bottom: 1rem;
+       margin-top: 0rem;
+       font-family: "nunito";
+/*       margin-top: 1.5rem;*/
+}
+
+   subtitle {
+       color: #16432a;
+        font-size:1.5rem;
+        font-weight:bold;
+        padding: 0em 0em 0em 0em;
+       display: block;
+       margin-top: 1rem;
+       margin-bottom: 0rem;
+       margin-left: 0rem;
        font-family: "nunito";
 /*       margin-top: 1.5rem;*/
 }
@@ -207,7 +236,8 @@ div.consider{
     background-color:#F3F7FB;
     border-left: .1rem solid #729ECA;
 /*border-bottom: .1rem solid #AFC8E1;*/
-    padding: .4rem
+    padding: .4rem;
+    break-inside: avoid;
 }
 
     p.consider{
@@ -241,7 +271,14 @@ div.for-instance{
 }
 
 
-div.h2{
+
+caption{
+    text-align: left;
+}
+
+
+
+div.h3{
     margin-left: 1rem;
 }
 
@@ -325,20 +362,30 @@ div.listbox {
         flex-direction: row;
         padding-bottom: 50px;
     }
-    h1,h2,h3,h4 {
+    h2,h3,h4 {
         color: #2E7E29;
          }
 
 h1 {
-      padding-top: 1rem;
+      padding-top: 0rem;
         margin-top:0rem;
     margin-left: 0rem;
     font-size: 2rem;
+    color: #16432a;
     }
   
-h2,h3 {
-        margin-bottom: 0px;
-         margin-left: ;
+h2 {
+    font-size: 2rem;    
+    margin-top: 1.5rem;
+    margin-bottom: 1.3rem;
+         margin-left: 0rem;
+    }
+
+h3 {
+    font-size: 1.8rem;    
+    margin-top: 1.5rem;
+    margin-bottom: 1.3rem;
+         margin-left: 0rem;
     }
 
 h4 {
@@ -374,6 +421,28 @@ emotions = He feels ANGER
 
 example
 callback = We shouldn't be rude. ("WHEN MY SHIT TURNS BLUE")*/
+
+
+    figure {
+    
+margin-left: 1rem;
+        margin-top: 1.5rem;
+       
+/*    color: green ;*/
+    }
+
+
+
+    figurecaption {
+    
+
+    font-weight: 700;
+        font-size: 1.5rem;
+        color: #363636;
+        
+/*    color: #2E7E29;
+        color: green ;*/
+    }
 
 
 
@@ -492,6 +561,7 @@ div.vignette {
     padding-left: 1.1rem;
     background-color:#FBF7F3;
     border-left: .1rem solid #CA9E72;
+    break-inside: avoid;
 /*    border-bottom: .1rem solid #f2e5da;*/
     }
 
@@ -1117,6 +1187,8 @@ p.headline {
         border-style:solid;
         border: .1rem solid gray;
         padding:0;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
 }
 
     td {
