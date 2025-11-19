@@ -446,6 +446,7 @@ margin-left: 1rem;
 
 
 
+
     term{
     font-style:italic;
     font-weight: 700;
@@ -454,15 +455,19 @@ margin-left: 1rem;
     }
 
     em {
-        font-style:italic;
-        color: #B33075  ;
+       
+         font-style:italic;
+        color: ;
         font-weight: 700;
     }
 
-    sem {
+    term2 {
+    
         font-style:italic;
-        color: ;
+        color: #B33075  ;
         font-weight: 700;
+
+     
     }
 
     sem-weak {
@@ -1155,6 +1160,19 @@ div.box {
     border-right: solid .1rem #CA72CA; 
     border-bottom: solid .1rem #CA72CA; 
     padding: 1rem 1.5rem 1rem 2rem
+}
+
+aside.box {
+    margin: 1.5rem 1rem 1rem 2.5rem;
+    background-color: #FBF3FB;
+/*
+    border-top: solid .1rem #e5a5cb; 
+    border-left: solid .1rem #e5a5cb; 
+*/
+    border-right: solid .1rem #CA72CA; 
+    border-bottom: solid .1rem #CA72CA; 
+    padding: 1rem 1.5rem 1rem 2rem
+    
 }
 
 .box p {
