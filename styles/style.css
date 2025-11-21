@@ -1182,11 +1182,33 @@ aside.box {
 }
 
 
+q {
+    font-style: italic;
+    
+}
+
+blockquote {
+margin-left: 1rem;
+margin-right: 1rem;
+    
+        
+}
+
+p.blockquote { 
+    margin-left: 3rem;
+    margin-bottom: 1.5rem;
+    
+}
+
 p.headline {
 
     font-weight:1000;
 
+    
+}
 
+div.blockquote {
+    
     
 }
 
