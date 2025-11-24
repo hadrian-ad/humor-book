@@ -362,7 +362,7 @@ div.listbox {
         flex-direction: row;
         padding-bottom: 50px;
     }
-    h2,h3,h4 {
+    h2,h3 {
         color: #2E7E29;
          }
 
@@ -389,7 +389,9 @@ h3 {
     }
 
 h4 {
-        margin-left: 3%;
+        font-weight:1000;
+    display: inline;
+    font-size: large;
     }
 
 /* pseudo-HEADER FOR FAQ */
@@ -1176,6 +1178,16 @@ aside.box {
     
 }
 
+aside.blockquote {
+
+   margin: 1rem;
+    background-color: #FBFAF7;
+    border-right: solid .1rem #CDC19B; 
+    border-bottom: solid .1rem #CDC19B; 
+    padding: 1rem 1rem 1rem 1rem
+        
+}
+
 .box p {
     color:	;
     
@@ -1183,7 +1195,7 @@ aside.box {
 
 
 q {
-    font-style: italic;
+
     
 }
 
@@ -1197,6 +1209,14 @@ margin-right: 1rem;
 p.blockquote { 
     margin-left: 3rem;
     margin-bottom: 1.5rem;
+    
+}
+
+div.frontspiece {
+
+    background-color: antiquewhite;
+    margin-left: 2rem;
+
     
 }
 
