@@ -1199,11 +1199,14 @@ q {
     
 }
 
-blockquote {
+blockquote.quotes {
 margin-left: 1rem;
-margin-right: 1rem;
-    
-        
+margin-right: 1rem;   
+}
+
+blockquote {
+margin-left: 0rem;
+margin-right: 0rem;   
 }
 
 p.blockquote { 
