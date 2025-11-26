@@ -215,6 +215,7 @@ div {
     p {
         font-size: large;
         margin-bottom: .6rem; 
+        
     }
 
     p,li {
@@ -231,12 +232,15 @@ p.indentsmalltext {
 
 div.consider{
     margin-right: 15%;
-    margin-left: 5%;
+    margin-left: 1rem;
     margin-top: 1rem;
     background-color:#F3F7FB;
     border-left: .1rem solid #729ECA;
 /*border-bottom: .1rem solid #AFC8E1;*/
-    padding: .4rem;
+    padding-top: .4rem;
+    padding-right: .4rem;
+    padding-bottom: .4rem;
+    padding-left; .4rem;
     break-inside: avoid;
 }
 
@@ -245,7 +249,7 @@ div.consider{
     font-size: medium;
     color: #254463;
     padding-bottom:0px;
-    padding-left: .4rem;
+    padding-left: 0rem;
     }
 
     p.considertext{
@@ -261,7 +265,7 @@ font-size: medium;
 }
 
 div.for-instance{
-    margin-left: 5%;
+    margin-left: 1rem;
     margin-top: 1rem;
     margin-right: 15%;
     background-color:#F3F7FB;
@@ -274,6 +278,11 @@ div.for-instance{
 
 caption{
     text-align: left;
+    font-size: large;
+        margin-bottom: .6rem; 
+        color: rgb(71,72,75);
+    font-weight: 700;
+    
 }
 
 
@@ -294,7 +303,7 @@ div.h3{
     }
     p.for-instance-text{
     font-size: medium;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     margin-right: 3rem;
     }
 
@@ -561,7 +570,7 @@ Note that "vig-or" is also used for - Later - as well as -OR -
 
 div.vignette {
     font-size: .9rem;
-    margin-left: 5%;
+    margin-left: 1rem;
     margin-top: 1.5rem;
     margin-right: 15%;
     padding: .8rem;
@@ -1177,6 +1186,14 @@ aside.box {
     padding: 1rem 1.5rem 1rem 2rem
     
 }
+
+
+
+aside.consider p{
+    font-size: medium;
+    margin-left: 1.5rem;
+    margin-right: 3rem;
+    }
 
 aside.blockquote {
 
