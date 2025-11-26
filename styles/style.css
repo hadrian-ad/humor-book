@@ -223,6 +223,7 @@ div {
         }
     li{
         margin-bottom: 1rem;
+
 }
 
 p.indentsmalltext {
@@ -238,7 +239,7 @@ div.consider{
     border-left: .1rem solid #729ECA;
 /*border-bottom: .1rem solid #AFC8E1;*/
     padding-top: 1.3rem;
-    padding-right: .4rem;
+    padding-right: 3.0rem;
     padding-bottom: .6rem;
     padding-left; .4rem;
     break-inside: avoid;
@@ -265,14 +266,14 @@ font-size: medium;
 }
 
 div.for-instance{
- margin-right: 15%;
+    margin-right: 15%;
     margin-left: 1rem;
     margin-top: 1rem;
     background-color:#F3F7FB;
     border-left: .1rem solid #729ECA;
 /*border-bottom: .1rem solid #AFC8E1;*/
     padding-top: 1.3rem;
-    padding-right: .4rem;
+    padding-right: 3.0rem;
     padding-bottom: .6rem;
     padding-left; .4rem;
     break-inside: avoid;
@@ -1203,7 +1204,7 @@ consider {
 aside.consider p{
     font-size: medium;
     margin-left: 1.5rem;
-    margin-right: 3rem;
+    margin-right: 0rem;
     }
 
 aside.blockquote {
