@@ -586,6 +586,8 @@ div.vignette {
 /*    border-bottom: .1rem solid #f2e5da;*/
     }
 
+
+
 div.vignette p {
    margin-top: 1.2rem;
     }
@@ -599,12 +601,41 @@ book-title {
     font-style: italic;
 }
 
-
-
 div.vignette book-title {
     font-style: normal;
     
 }
+
+div.deeper-look {
+    
+    margin-left: 1rem; 
+    margin-right: 3rem;
+    background-color: ghostwhite;
+    /*   border-right: .1rem solid #E1E1FF;*/
+    border-bottom: 1.5rem solid #E1E1FF;
+    border-top: 1.5rem solid #E1E1FF;
+}
+
+div.deeper-look p {
+
+    font-size: medium;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+div.deeper-look div.consider {
+    
+    margin-left: 3rem;
+    
+}
+
+div.deeper-look h2 {
+    
+    color: darkslategray;
+    text-align: center;
+    
+}
+
 
   
 notes /*like humor/no humor and mistake/OK*/ {
@@ -1093,7 +1124,10 @@ img {
     max-width: 25rem;
   width: 100%;
     height: auto;
+    background-color: none;
 }
+
+
 
 img.center-if-screen-is-small {
  
