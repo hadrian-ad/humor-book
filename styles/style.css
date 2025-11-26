@@ -237,9 +237,9 @@ div.consider{
     background-color:#F3F7FB;
     border-left: .1rem solid #729ECA;
 /*border-bottom: .1rem solid #AFC8E1;*/
-    padding-top: .4rem;
+    padding-top: 1.3rem;
     padding-right: .4rem;
-    padding-bottom: .4rem;
+    padding-bottom: .6rem;
     padding-left; .4rem;
     break-inside: avoid;
 }
@@ -265,13 +265,17 @@ font-size: medium;
 }
 
 div.for-instance{
+ margin-right: 15%;
     margin-left: 1rem;
     margin-top: 1rem;
-    margin-right: 15%;
     background-color:#F3F7FB;
     border-left: .1rem solid #729ECA;
-/*    border-bottom: .1rem solid #d9e7f2;*/
-    padding: .4rem
+/*border-bottom: .1rem solid #AFC8E1;*/
+    padding-top: 1.3rem;
+    padding-right: .4rem;
+    padding-bottom: .6rem;
+    padding-left; .4rem;
+    break-inside: avoid;
 }
 
 
@@ -1187,6 +1191,13 @@ aside.box {
     
 }
 
+consider {
+    font-weight: 700;
+    font-size: medium;
+    color: #254463;
+    padding-bottom:0px;
+    padding-left: 1rem;
+    }
 
 
 aside.consider p{
