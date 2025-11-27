@@ -682,15 +682,39 @@ div.deeper-look p {
     margin-right: 2rem;
 }
 
-div.deeper-look div.consider {
+div.deeper-look div.consider, div.deeper-look div.for-instance {
     
     margin-left: 3rem;
 }
+
+div.deeper-look ul {
+    
+    margin-left: 1rem;
+}
+
+div.deeper-look p.and-so-on {
+    
+    margin-left: 4rem;
+}
+
+div.deeper-look div.vignette p {
+    
+    font-size: large;
+}
+
 
 div.deeper-look h2 {
     
     color: darkslategray;
     text-align: center;
+}
+
+div.deeper-look h3 {
+    margin-left: 1.5rem;    
+}
+
+div.deeper-look figure div.vignette {
+    margin-left: 1.5rem;    
 }
 
 deeper-title {    
