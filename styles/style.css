@@ -182,13 +182,14 @@ background-color: #AFE1AF;
    
 
     body {
-/*        margin: 0% 10% 10% 10%;*/
+/*        margin: 0% 10% 0% 0%;*/
         padding: 0% 10% 10% 10%;
         font-family: "Nunito", sans-serif, "Tahoma", "Calibri";
         font-size: 1rem;
         max-width: 40rem;
         background-color: white;
         margin:auto;
+        
         
             
     }
@@ -363,6 +364,10 @@ div.listbox {
         margin-right:3rem;
 }
 
+div.deeper-look p.lesson { 
+    margin-left: 3rem;
+}
+
     p.listboxheadline {
         font-weight: 700;
         color: darkred;
@@ -393,6 +398,10 @@ h2 {
     margin-top: 1.5rem;
     margin-bottom: 1.3rem;
          margin-left: 0rem;
+    border-top: 2rem solid #AFE1AF;
+
+
+        padding-top: 1rem;
     }
 
 h3 {
@@ -443,6 +452,7 @@ callback = We shouldn't be rude. ("WHEN MY SHIT TURNS BLUE")*/
     
 margin-left: 1rem;
         margin-top: 1.5rem;
+        break-inside: avoid;
        
 /*    color: green ;*/
     }
@@ -586,7 +596,15 @@ div.vignette {
 /*    border-bottom: .1rem solid #f2e5da;*/
     }
 
+div.deeper-look div.vignette {
+ margin-left: 3rem;   
+}
 
+div.deeper-look div.vignette p {
+
+    margin-left: .6rem;
+    
+}
 
 div.vignette p {
    margin-top: 1.2rem;
@@ -601,6 +619,46 @@ book-title {
     font-style: italic;
 }
 
+
+div.vignette book-title {
+    font-style: normal;
+    
+}
+
+div.chapter-summary {
+    
+    
+    margin-left: 1rem; 
+    margin-right: 3rem;
+    background-color: #f9ebea;
+    /*   border-right: .1rem solid #E1E1FF;*/
+    border-bottom: 1.5rem solid #d98880;
+    border-top: 1.5rem solid #d98880;
+}
+
+
+div.chapter-summary p {
+
+    font-size: medium;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+div.chapter-summary h3 {
+    
+    color: darkslategray;
+    text-align: center;
+}
+
+div.chapter-summary ul {
+ 
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+
+
 div.vignette book-title {
     font-style: normal;
     
@@ -613,8 +671,9 @@ div.deeper-look {
     background-color: ghostwhite;
     /*   border-right: .1rem solid #E1E1FF;*/
     border-bottom: 1.5rem solid #E1E1FF;
-    border-top: 1.5rem solid #E1E1FF;
+    /*border-top: 1.5rem solid #E1E1FF;*/
 }
+
 
 div.deeper-look p {
 
@@ -626,16 +685,24 @@ div.deeper-look p {
 div.deeper-look div.consider {
     
     margin-left: 3rem;
-    
 }
 
 div.deeper-look h2 {
     
     color: darkslategray;
     text-align: center;
-    
 }
 
+deeper-title {    
+}
+
+
+deeper-look {    
+ text-align: center;
+    font-size: large;
+display: block;
+ 
+}
 
   
 notes /*like humor/no humor and mistake/OK*/ {
@@ -1119,12 +1186,22 @@ padding-left: 1.5rem;
         margin: 20px;
     }
 
+div.deeper-look img, div.consider img, aside.box img, aside.consider img {
+ 
+    background-color: transparent;
+}
+
+
 img {
  margin-top: 1rem;
     max-width: 25rem;
   width: 100%;
     height: auto;
-    background-color: none;
+    background-color: white;
+}
+
+div.deeper-look img {
+margin-left: 3rem;
 }
 
 
@@ -1280,11 +1357,17 @@ p.blockquote {
 
 div.frontspiece {
 
-    background-color: antiquewhite;
     margin-left: 2rem;
 
-    
 }
+
+div.frontspiece figure { 
+
+    border-top: .1rem solid slategray;
+    
+
+}
+
 
 p.headline {
 
