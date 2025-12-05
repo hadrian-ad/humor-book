@@ -217,15 +217,15 @@ div {
     p {
         font-size: large;
         margin-bottom: .6rem; 
+        text-align: left;
         
     }
 
     p,li {
         color: rgb(71,72,75); 
         }
-    li{
+    li {
         margin-bottom: 1rem;
-
 }
 
 p.indentsmalltext {
@@ -430,6 +430,8 @@ h4 {
     ul, ol {
         margin-top: 1.2rem;
         font-size: 'large';
+    padding-left: 5%;
+        padding-right: 10%;
     }
 
 /*TEXT STYLES*/
@@ -449,7 +451,7 @@ callback = We shouldn't be rude. ("WHEN MY SHIT TURNS BLUE")*/
 
     figure {
     
-margin-left: 1rem;
+margin-left: .0rem;
         margin-top: 1.5rem;
         break-inside: avoid;
        
@@ -462,7 +464,7 @@ margin-left: 1rem;
     
 
     font-weight: 700;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         color: #363636;
         
 /*    color: #2E7E29;
@@ -592,6 +594,7 @@ div.vignette {
     background-color:#FBF7F3;
     border-left: .1rem solid #CA9E72;
     break-inside: avoid;
+    border-bottom: .01rem dotted #CA9E72
 /*    border-bottom: .1rem solid #f2e5da;*/
     }
 
@@ -627,8 +630,8 @@ div.vignette book-title {
 div.chapter-summary {
     
     
-    margin-left: 1rem; 
-    margin-right: 3rem;
+    margin-left: 5%; 
+    margin-right: 5%;
     background-color: #f9ebea;
     /*   border-right: .1rem solid #E1E1FF;*/
     border-bottom: 1.5rem solid #d98880;
@@ -665,8 +668,8 @@ div.vignette book-title {
 
 div.deeper-look {
     
-    margin-left: 1rem; 
-    margin-right: 3rem;
+    margin-left: 5%; 
+    margin-right: 5%;
     background-color: ghostwhite;
     /*   border-right: .1rem solid #E1E1FF;*/
     border-bottom: 1.5rem solid #E1E1FF;
@@ -684,6 +687,16 @@ div.deeper-look p {
 div.deeper-look div.consider, div.deeper-look div.for-instance {
     
     margin-left: 3rem;
+}
+
+div.consider ul {
+    
+    margin-left: 1.5rem;
+}
+
+div.consider p.and-so-on {
+    margin-left: 2rem;
+
 }
 
 div.deeper-look ul {
@@ -835,8 +848,8 @@ p.chapter-subtitle {
 /*chapter ending*/
 
 div.chapter-end {
-margin-right: 2rem;
-    margin-left: 1rem;
+margin-right: 5%;
+    margin-left: 5%;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
     background-color: #16432a;
@@ -857,6 +870,7 @@ div.chapter-end p{
     color: #AFE1AF;
     padding-left: 2rem;
     padding-right: 2rem;
+    text-align: center;
     
 }
 
@@ -1218,7 +1232,7 @@ div.deeper-look img, div.consider img, aside.box img, aside.consider img {
 img {
  margin-top: 1rem;
     max-width: 25rem;
-  width: 100%;
+  width: 98%;
     height: auto;
     background-color: white;
 }
@@ -1276,7 +1290,7 @@ div.about-box {
     
     background-color: #FDF8FB; 
     padding: 1rem; 
-    margin: 1rem 3rem 0rem 2rem; 
+    margin: 1rem 6% 0rem 2rem; 
     border-right: solid .1rem #EFC6DE; 
     border-bottom: solid .1rem #EFC6DE; 
     font-weight: 500; 
@@ -1314,7 +1328,7 @@ div.box {
 }
 
 aside.box {
-    margin: 1.5rem 1rem 1rem 2.5rem;
+    margin: 1.5rem 4rem 1rem 1rem;
     background-color: #FBF3FB;
 /*
     border-top: solid .1rem #e5a5cb; 
@@ -1323,8 +1337,8 @@ aside.box {
     border-right: solid .1rem #CA72CA; 
     border-bottom: solid .1rem #CA72CA; 
     padding: 1rem 1.5rem 1rem 2rem
-    
 }
+
 
 consider {
     font-weight: 700;
@@ -1380,7 +1394,7 @@ p.blockquote {
 
 div.frontspiece {
 
-    margin-left: 2rem;
+    margin-left: 0.5rem;
 
 }
 
@@ -1388,7 +1402,6 @@ div.frontspiece figure {
 
     border-top: .1rem solid slategray;
     
-
 }
 
 
