@@ -296,7 +296,7 @@ caption{
 
 
 
-div.h3{
+div.h4{
     margin-left: 1rem;
 }
 
@@ -384,7 +384,7 @@ div.deeper-look p.lesson {
         flex-direction: row;
         padding-bottom: 50px;
     }
-    h2,h3 {
+    h3,h4 {
         color: #2E7E29;
          }
 
@@ -392,31 +392,43 @@ h1 {
       padding-top: 0rem;
         margin-top:0rem;
     margin-left: 0rem;
-    font-size: 2rem;
+    font-size: 1rem;
     color: #16432a;
+    text-align: center;
     }
+
+
+
   
 h2 {
-    font-size: 2rem;    
+    
+       padding-top: 0rem;
+        margin-top:0rem;
+    margin-left: 0rem;
+    font-size: 2rem;
+    color: #16432a;
+
+    }
+
+h3 {
+    
+        font-size: 2rem;    
     margin-top: 1.5rem;
     margin-bottom: 1.3rem;
          margin-left: 0rem;
     border-top: 2rem solid #AFE1AF;
         padding-top: 1rem;
+  
     }
 
-h3 {
+h4 {
     font-size: 1.8rem;    
     margin-top: 1.5rem;
     margin-bottom: 1.3rem;
          margin-left: 0rem;
     }
 
-h4 {
-        font-weight:1000;
-    display: inline;
-    font-size: large;
-    }
+
 
 /* pseudo-HEADER FOR FAQ */
     p.faq-question {
@@ -426,7 +438,7 @@ h4 {
         font-weight: 700;
 }
 
-    h2+p,h3+p {
+    h2+p,h4+p {
         margin: 0px;
     }
     ul, ol {
@@ -567,7 +579,7 @@ headline/*e.g. first word of boxes*/ {
 /*TEXT STYLES FOR VIGNETTES*/
 /* 
 <div class="vignette">
-<h2>if vignette has a header
+<h3>if vignette has a header
 Narration
 speaker: *action* (internalaction) "Speech" (&larr;notes)    
 <p class="vig-indent">-
@@ -575,7 +587,7 @@ speaker: *action* (internalaction) "Speech" (&larr;notes)
 <p class="vig-or"> - OR -
 <P class="vig-indent"> Contrast example
 
-<h2>This is an example of the above format</h2>
+<h3>This is an example of the above format</h3>
 Justin sees book editors.
 Justin: *waves* (happily) "Hey everyone!" (&larr;humor) 
     -
@@ -654,7 +666,7 @@ div.chapter-summary p {
 }
 
 
-div.chapter-summary h3 {
+div.chapter-summary h4 {
     
     color: darkslategray;
     text-align: center;
@@ -722,13 +734,13 @@ div.deeper-look div.vignette p {
 }
 
 
-div.deeper-look h2 {
+div.deeper-look h3 {
     
     color: darkslategray;
     text-align: center;
 }
 
-div.deeper-look h3 {
+div.deeper-look h4 {
     margin-left: 1.5rem;    
 }
 
@@ -826,11 +838,11 @@ p.main-title {
 
 p.main-subtitle {
 
-font-style: italic;
+font-style: ;
     margin-top: 0rem;
     margin-bottom: 1rem;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 3rem;
     font-weight: 700;
     color: #16432a 
 }
