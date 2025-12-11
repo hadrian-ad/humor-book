@@ -228,6 +228,8 @@ div {
         margin-bottom: 1rem;
 }
 
+
+
 p.indentsmalltext {
     font-size: 1rem;
     text-indent: 5%;
@@ -606,6 +608,11 @@ div.deeper-look div.vignette p {
 
     margin-left: .6rem;
     
+}
+
+div.deeper-look li {
+
+    margin-left: 1rem;
 }
 
 div.vignette p {
@@ -1361,7 +1368,7 @@ aside.blockquote {
     background-color: #FBFAF7;
     border-right: solid .1rem #CDC19B; 
     border-bottom: solid .1rem #CDC19B; 
-    padding: 1rem 1rem 0rem 1rem
+    padding: 1rem .5rem 0rem .5rem;
         
 }
 
@@ -1377,8 +1384,8 @@ q {
 }
 
 blockquote.quotes {
-margin-left: 1rem;
-margin-right: 1rem;   
+margin-left: 2%;
+margin-right: 2%;   
 }
 
 blockquote {
