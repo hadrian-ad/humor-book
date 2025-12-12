@@ -1393,20 +1393,60 @@ q {
 
 }
 
-blockquote.quotes {
-margin-left: 2%;
-margin-right: 2%;   
+
+div.blockquote {
+       margin: 1rem;
+    background-color: #FBFAF7;
+    border-right: solid .1rem #CDC19B; 
+    border-bottom: solid .1rem #CDC19B; 
+    padding: 1rem .5rem 0rem .5rem;
+    
 }
 
 blockquote {
-margin-left: 0rem;
-margin-right: 0rem;   
+ 
+    margin-left: 2%;
+    
+}
+
+blockquote.testimonial {
+margin-left: 5%;
+margin-right: 5%;
+    margin-top: 0rem;
+    margin-bottom: 1.3rem;
+    padding-left: 3%;
+    border-left: solid grey .1rem 
+}
+
+blockquote.testimonial p {
+    font-size: 1rem;
+    
+}
+
+blockquote.epigraph {
+border-left: none;
+}
+
+p.epigraph {
+    
+    margin-left: 1rem;
 }
 
 p.blockquote { 
-    margin-left: 3rem;
-    margin-bottom: 1.5rem;
+
+    font-size: medium;
+    font-weight: 700;
+    margin-bottom: 0rem;
+ 
+}
+
+
+
+
+
+blockquote p {
     
+
 }
 
 div.frontspiece {
@@ -1429,10 +1469,6 @@ p.headline {
     
 }
 
-div.blockquote {
-    
-    
-}
 
 
 .warning p {
