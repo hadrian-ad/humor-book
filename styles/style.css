@@ -388,6 +388,13 @@ div.deeper-look p.lesson {
         color: #2E7E29;
          }
 
+h3.beginning {
+border-top: none; 
+color: #16432a; 
+font-size: 1.7rem; 
+margin-bottom: 0rem;
+}
+
 h1 {
       padding-top: 0rem;
         margin-top:0rem;
@@ -597,6 +604,11 @@ Justin: *waves* (happily) "Hey everyone!" (&larr;humor)
 
 Note that "vig-or" is also used for - Later - as well as -OR -
 */
+
+hr { 
+
+border: none;    
+}
 
 div.vignette {
     font-size: .9rem;
@@ -845,7 +857,7 @@ div.main-title {
 p.main-title {
     margin-top: 1.3rem;
     text-align: center;
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: 700;
     color: #16432a; 
 }
@@ -857,7 +869,7 @@ font-style: ;
     margin-top: 0rem;
     margin-bottom: 1rem;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 700;
     color: #16432a 
 }
@@ -1456,7 +1468,7 @@ border-left: none;
 
 p.epigraph {
     
-    margin-left: 1rem;
+    margin-left: 0rem;
 }
 
 p.blockquote { 
@@ -1464,12 +1476,24 @@ p.blockquote {
     font-size: medium;
     font-weight: 700;
     margin-bottom: 0rem;
-    margin-left: 2%;
+    margin-left: 4%;
  
 }
 
+p.epigraph-attribution { 
+
+     font-size: medium;
+    font-weight: 500;
+    margin-bottom: 0rem;
+    margin-left: 4%;
+}
 
 
+div.title-page p { 
+
+    font-size: medium;
+    
+}
 
 
 blockquote p {
