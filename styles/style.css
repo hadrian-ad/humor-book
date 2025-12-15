@@ -658,7 +658,8 @@ div.chapter-summary {
 }
 
 
-div.chapter-summary p {
+
+div.chapter-summary p.text-example {
 
     font-size: medium;
     margin-left: 2rem;
@@ -695,12 +696,26 @@ div.deeper-look {
     /*border-top: 1.5rem solid #E1E1FF;*/
 }
 
+div.deeper-look p, div.chapter-summary p {
+    font-size: medium;
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+    
+}
 
-div.deeper-look p {
+
+div.deeper-look div.text-example p {
 
     font-size: medium;
     margin-left: 2rem;
     margin-right: 2rem;
+}
+
+div.deeper-look p.text-example {
+
+    font-size: medium;
+    margin-left: 2.5rem;
+    
 }
 
 div.deeper-look div.consider, div.deeper-look div.for-instance {
