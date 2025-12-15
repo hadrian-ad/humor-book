@@ -1393,6 +1393,18 @@ q {
 
 }
 
+div.forward p { 
+font-size: medium;
+}
+
+div.epigraph {
+    padding: 0% 5% 2% 0%;
+
+}
+
+p.epigraph { 
+font-size: medium;
+}
 
 div.blockquote {
        margin: 1rem;
@@ -1437,6 +1449,7 @@ p.blockquote {
     font-size: medium;
     font-weight: 700;
     margin-bottom: 0rem;
+    margin-left: 2%;
  
 }
 
