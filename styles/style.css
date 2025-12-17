@@ -479,6 +479,19 @@ margin-left: .0rem;
 /*    color: green ;*/
     }
 
+div.end-art {
+
+margin-top: 1rem;
+}
+
+img.end-art {
+
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    border: black solid .2rem;
+
+}
 
 
     figurecaption {
@@ -492,7 +505,10 @@ margin-left: .0rem;
         color: green ;*/
     }
 
+div.deeper-look figurecaption {
+margin-left: .6rem;
 
+}
 
 
     term{
