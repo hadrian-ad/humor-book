@@ -489,7 +489,8 @@ img.end-art {
     display: block;
     margin: auto;
     padding: 1rem;
-    border: black solid .2rem;
+    border-top: black solid .2rem;
+        border-bottom: black solid .2rem;
 
 }
 
@@ -630,9 +631,10 @@ div.vignette {
     font-size: .9rem;
     margin-left: 1rem;
     margin-top: 1.5rem;
-    margin-right: 15%;
+    margin-right: 13%;
     padding: .8rem;
     padding-left: 1.1rem;
+    padding-right: 0rem;
     background-color:#FBF7F3;
     border-left: .1rem solid #CA9E72;
     break-inside: avoid;
@@ -691,7 +693,7 @@ div.chapter-summary p.text-example {
 
     font-size: medium;
     margin-left: 2rem;
-    margin-right: 2rem;
+    margin-right: 2%;
 }
 
 
@@ -736,7 +738,7 @@ div.deeper-look div.text-example p {
 
     font-size: medium;
     margin-left: 2rem;
-    margin-right: 2rem;
+    margin-right: 2%;
 }
 
 div.deeper-look p.text-example {
@@ -1532,7 +1534,7 @@ div.frontspiece figure {
 
 p.headline {
 
-    font-weight:1000;
+    font-weight:700;
 
     
 }
