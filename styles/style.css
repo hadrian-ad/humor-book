@@ -1,5 +1,5 @@
 html {
-background-color: lightgrey;
+/*background-color: lightgrey;*/
 }
 
 /*NAVBOTTOM*/
@@ -512,6 +512,7 @@ img.end-art {
     font-weight: 700;
         font-size: 1.3rem;
         color: #363636;
+
         
 /*    color: #2E7E29;
         color: green ;*/
@@ -520,7 +521,10 @@ img.end-art {
 div.deeper-look figurecaption {
 margin-left: .6rem;
 
+
 }
+
+
 
 
     term{
@@ -744,6 +748,28 @@ div.deeper-look p, div.chapter-summary p {
     margin-left: 1.6rem;
     margin-right: 1.6rem;
     
+}
+
+div.frontspiece figurecaption {
+
+    font-size: 1rem;
+        margin-left: 1.6rem;
+    margin-right: 1.6rem;
+    text-indent: 0rem;
+    display: block;
+    margin-top: 1rem
+}
+
+
+div.deeper-look div.poem p {
+
+    font-size: medium;
+    margin-left: 2rem;
+    margin-right: 2%;
+    padding-left: .5rem;
+    text-indent: .5rem hanging;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
 }
 
 
@@ -1550,15 +1576,10 @@ div.frontspiece figure {
     
 }
 
-
 p.headline {
 
-    font-weight:700;
-
-    
+    font-weight:700;   
 }
-
-
 
 .warning p {
  
