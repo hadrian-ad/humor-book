@@ -235,15 +235,15 @@ p.indentsmalltext {
     text-indent: 5%;
 }
 
-div.consider{
-    margin-right: 15%;
+div.consider {
+    margin-right: 10%;
     margin-left: 1rem;
     margin-top: 1rem;
     background-color:#F3F7FB;
     border-left: .1rem solid #729ECA;
 /*border-bottom: .1rem solid #AFC8E1;*/
     padding-top: 1.3rem;
-    padding-right: 3.0rem;
+    padding-right: 1.2rem;
     padding-bottom: .6rem;
     padding-left; .4rem;
     break-inside: avoid;
@@ -270,14 +270,14 @@ font-size: medium;
 }
 
 div.for-instance{
-    margin-right: 15%;
+   margin-right: 10%;
     margin-left: 1rem;
     margin-top: 1rem;
     background-color:#F3F7FB;
     border-left: .1rem solid #729ECA;
 /*border-bottom: .1rem solid #AFC8E1;*/
     padding-top: 1.3rem;
-    padding-right: 3.0rem;
+    padding-right: 1.2rem;
     padding-bottom: .6rem;
     padding-left; .4rem;
     break-inside: avoid;
@@ -420,7 +420,7 @@ h2 {
 h3 {
     
         font-size: 2rem;    
-    margin-top: 1.5rem;
+    margin-top: 0rem;
     margin-bottom: 1.3rem;
          margin-left: 0rem;
     border-top: 2rem solid #AFE1AF;
@@ -429,13 +429,23 @@ h3 {
     }
 
 h4 {
-        font-size: 2rem;    
-    margin-top: 1.5rem;
+        font-size: 1.5rem;    
+    margin-top: 1rem;
     margin-bottom: 1.3rem;
          margin-left: 0rem;
-    border-top: 2rem solid #AFE1AF;
-        padding-top: 1rem;
+            padding-top: 1rem;
     }
+
+aside.box h4 {
+
+    font-size: 1.3rem;
+    margin: 0rem;
+    margin-left: -.5rem;
+    margin-bottom: .3rem;
+    border: none;
+    color: darkslategray;
+    padding: 0rem
+}
 
 h5 { 
     
@@ -490,18 +500,29 @@ margin-left: .0rem;
 /*    color: green ;*/
     }
 
-div.end-art {
-
+figure.end-art {
 margin-top: 1rem;
+     padding: 1rem;
+    border-top: black solid .2rem;
+        border-bottom: black solid .2rem;
+    
+        display: block;
+    margin: auto;
+    
 }
+
+figure.end-art figurecaption p {
+
+    font-size: medium;
+    text-align: center;
+    
+}
+
 
 img.end-art {
 
-    display: block;
-    margin: auto;
-    padding: 1rem;
-    border-top: black solid .2rem;
-        border-bottom: black solid .2rem;
+
+   
 
 }
 
@@ -646,7 +667,7 @@ div.vignette {
     font-size: .9rem;
     margin-left: 1rem;
     margin-top: 1.5rem;
-    margin-right: 13%;
+    margin-right: 10%;
     padding: .8rem;
     padding-left: 1.1rem;
     padding-right: 0rem;
@@ -735,8 +756,8 @@ div.vignette book-title {
 
 div.deeper-look {
     
-    margin-left: 5%; 
-    margin-right: 5%;
+    margin-left: 2%; 
+    margin-right: 2%;
     background-color: ghostwhite;
     /*   border-right: .1rem solid #E1E1FF;*/
     border-bottom: 1.5rem solid #E1E1FF;
@@ -790,6 +811,7 @@ div.deeper-look p.text-example {
 div.deeper-look div.consider, div.deeper-look div.for-instance {
     
     margin-left: 3rem;
+    padding-right: 1.2rem;
 }
 
 div.consider ul {
@@ -831,7 +853,7 @@ div.deeper-look h5 {
     text-align: center;
     font-size: 1.3rem;
     text-align: left;
-    margin-left: .5rem;
+    margin-left: 1.1rem;
 }
 
 div.deeper-look figure div.vignette {
@@ -879,6 +901,7 @@ speech{
 }
 p.vig-indent /*for indented paragraphs*/ {
     margin-left: 6%;
+    
     
 }
 p.vig-or /*for -OR-*/ {
@@ -1337,6 +1360,12 @@ div.deeper-look img, div.consider img, aside.box img, aside.consider img {
     background-color: transparent;
 }
 
+div.deeper-look div.vignette p { 
+
+    font-size: medium;
+    margin-right: 0rem;
+    
+}
 
 img {
  margin-top: 1rem;
@@ -1424,21 +1453,29 @@ div.list-in-text {
     padding: 1rem 1rem 1rem 1rem
 }
 
+div.list-in-text figurecaption {
+
+    font-size: 1rem;
+}
+
+/*
 div.box {
     margin: 1.5rem 1rem 1rem 2.5rem;
     background-color: #FBF3FB;
-/*
+
     border-top: solid .1rem #e5a5cb; 
     border-left: solid .1rem #e5a5cb; 
-*/
+
     border-right: solid .1rem #CA72CA; 
     border-bottom: solid .1rem #CA72CA; 
     padding: 1rem 1.5rem 1rem 2rem
 }
+*/
 
 aside.box {
     margin: 1.5rem 4rem 1rem 1rem;
     background-color: #FBF3FB;
+    margin-right: 10%;
 /*
     border-top: solid .1rem #e5a5cb; 
     border-left: solid .1rem #e5a5cb; 
