@@ -717,8 +717,8 @@ div.vignette book-title {
 div.chapter-summary {
     
     
-    margin-left: 5%; 
-    margin-right: 5%;
+    margin-left: 2%; 
+    margin-right: 2%;
     background-color: #f9ebea;
     /*   border-right: .1rem solid #E1E1FF;*/
     border-bottom: 1.5rem solid #d98880;
@@ -761,7 +761,7 @@ div.deeper-look {
     background-color: ghostwhite;
     /*   border-right: .1rem solid #E1E1FF;*/
     border-bottom: 1.5rem solid #E1E1FF;
-    /*border-top: 1.5rem solid #E1E1FF;*/
+    border-top: 1.5rem solid #E1E1FF;
 }
 
 div.deeper-look p, div.chapter-summary p {
