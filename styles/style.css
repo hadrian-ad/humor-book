@@ -521,6 +521,8 @@ figure.end-art figurecaption p {
 
 img.end-art {
 
+display: block; 
+    margin: auto;
 
    
 
@@ -1475,7 +1477,7 @@ div.box {
 aside.box {
     margin: 1.5rem 4rem 1rem 1rem;
     background-color: #FBF3FB;
-    margin-right: 10%;
+    margin-right: 2%;
 /*
     border-top: solid .1rem #e5a5cb; 
     border-left: solid .1rem #e5a5cb; 
