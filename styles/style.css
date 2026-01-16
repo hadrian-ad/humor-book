@@ -500,6 +500,14 @@ margin-left: .0rem;
 /*    color: green ;*/
     }
 
+
+figure.vignette {
+
+    border-top: .1rem solid gray;
+/*    border-bottom: .1rem solid gray;*/
+
+}
+
 figure.end-art {
 margin-top: 1rem;
      padding: 1rem;
