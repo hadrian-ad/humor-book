@@ -236,7 +236,7 @@ p.indentsmalltext {
 }
 
 div.consider {
-    margin-right: 10%;
+    margin-right: 2%;
     margin-left: 1rem;
     margin-top: 1rem;
     background-color:#F3F7FB;
@@ -677,8 +677,8 @@ div.vignette {
     font-size: .9rem;
     margin-left: 1rem;
     margin-top: 1.5rem;
-    margin-right: 10%;
-    padding: .8rem;
+    margin-right: 2%;
+    padding: .3rem;
     padding-left: 1.1rem;
     padding-right: 0rem;
     background-color:#FBF7F3;
@@ -687,6 +687,10 @@ div.vignette {
     border-bottom: .01rem dotted #CA9E72
 /*    border-bottom: .1rem solid #f2e5da;*/
     }
+
+div.vignette p {
+font-size: medium;
+}
 
 div.deeper-look div.vignette {
  margin-left: 3rem;   
@@ -1493,6 +1497,11 @@ aside.box {
     border-right: solid .1rem #CA72CA; 
     border-bottom: solid .1rem #CA72CA; 
     padding: 1rem 1.5rem 1rem 2rem
+}
+
+aside.box p {
+
+    font-size: medium;
 }
 
 
