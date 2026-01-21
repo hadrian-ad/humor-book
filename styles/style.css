@@ -215,7 +215,7 @@ div {
 }
 /*PARAGRAPHS & LISTS*/
     p {
-        font-size: large;
+        font-size: 1.1rem;
         margin-bottom: .6rem; 
         text-align: left;
         
@@ -319,9 +319,9 @@ div.h4{
 
 
 div.listbox {
-        padding: 10px;
-    margin-right: 2rem;
-    margin-left: 2rem;
+        padding: 1.5%;
+    margin-right: 6%;
+    margin-left: 6%;
         background-color:#E8E8E8;
         color:black;
 }
@@ -497,6 +497,7 @@ callback = We shouldn't be rude. ("WHEN MY SHIT TURNS BLUE")*/
 margin-left: .0rem;
         margin-top: 1.5rem;
         break-inside: avoid;
+/*        border-bottom: .01rem solid #CA9E72*/
        
 /*    color: green ;*/
     }
@@ -695,7 +696,7 @@ div.vignette {
     background-color:#FBF7F3;
     border-left: .1rem solid #CA9E72;
     break-inside: avoid;
-    border-bottom: .01rem dotted #CA9E72
+/*    border-bottom: .01rem dotted #CA9E72*/
 /*    border-bottom: .1rem solid #f2e5da;*/
     }
 
@@ -1517,11 +1518,20 @@ aside.box {
 
 aside.box p {
 
-    font-size: medium;
-    margin-right: 2%;
-    margin-left: 2%;
+    font-size: 1rem;
+    margin-right: 3%;
+    margin-left: 3%;
 }
 
+aside.box figure {
+
+    margin-left: 4%
+}
+
+listblock {
+display: block;
+    
+}
 
 consider {
     font-weight: 700;
@@ -1534,7 +1544,7 @@ consider {
 
 aside.consider p{
     font-size: medium;
-    margin-left: 2%;
+    margin-left: 3%;
     margin-right: 2%;
     padding-left: 2%;
     }
