@@ -846,6 +846,7 @@ div.consider ul {
     margin-left: 1.5rem;
 }
 
+
 div.consider p.and-so-on {
     margin-left: 2rem;
 
@@ -1526,6 +1527,17 @@ aside.box p {
 aside.box figure {
 
     margin-left: 4%
+}
+
+
+aside.box ul {
+    
+    margin-left: 5%;
+}
+
+aside.box p.and-so-on {
+    
+    margin-left: 12%;
 }
 
 listblock {
