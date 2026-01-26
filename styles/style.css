@@ -97,7 +97,7 @@ a:active {
 This bolds links in divs. The main intent is to bold the links in chapter end summaries.
 */
 
-div a {
+div a, aside a {
 font-weight: 700;
 }
 
