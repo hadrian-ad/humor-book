@@ -1565,11 +1565,21 @@ aside.box figure {
     margin-left: 4%
 }
 
+aside.box div.vignette {
+margin-left: 4%;
+
+}
 
 aside.box ul {
     
     margin-left: 5%;
 }
+
+aside.box div.consider {
+margin-left: 5%;
+
+}
+
 
 aside.box p.and-so-on {
     
