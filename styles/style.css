@@ -705,7 +705,14 @@ div.vignette {
 
 div.vignette p {
 font-size: medium;
-    padding-left: 3%;
+    padding-left: 5%;
+    padding-right: 1%;
+    margin-top: 1.2rem;
+}
+
+div.vignette blockquote {
+padding: 0%;
+    margin: 0%;
 }
 
 div.deeper-look div.vignette {
@@ -724,9 +731,6 @@ div.deeper-look li {
     font-size: 1rem;
 }
 
-div.vignette p {
-   margin-top: 1.2rem;
-    }
 
 .vignette humor-outcome, emotions { 
     font-weight: 700;
@@ -1558,6 +1562,7 @@ aside.box p {
     font-size: 1rem;
     margin-right: 3%;
     margin-left: 3%;
+
 }
 
 aside.box figure {
@@ -1579,7 +1584,6 @@ aside.box div.consider {
 margin-left: 5%;
 
 }
-
 
 aside.box p.and-so-on {
     
@@ -1605,6 +1609,7 @@ aside.consider p{
     margin-left: 3%;
     margin-right: 2%;
     padding-left: 2%;
+/*   
     }
 
 aside.blockquote {
