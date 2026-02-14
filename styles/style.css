@@ -244,7 +244,7 @@ div.consider {
 /*border-bottom: .1rem solid #AFC8E1;*/
     padding-top: 1.3rem;
     padding-right: 1.2rem;
-    padding-bottom: .6rem;
+    padding-bottom: 2rem;
     padding-left; 1.5%;
     break-inside: avoid;
 }
@@ -279,7 +279,8 @@ div.for-instance{
 /*border-bottom: .1rem solid #AFC8E1;*/
     padding-top: 1.3rem;
     padding-right: 1.2rem;
-    padding-bottom: .6rem;
+
+     padding-bottom: 2rem;
     padding-left; 1.5%;
     break-inside: avoid;
 }
@@ -1599,7 +1600,6 @@ consider {
     font-weight: 700;
     font-size: medium;
     color: #254463;
-    padding-bottom:0px;
     padding-left: 2.5%;
     }
 
@@ -1609,6 +1609,7 @@ aside.consider p{
     margin-left: 3%;
     margin-right: 2%;
     padding-left: 5%;
+    margin-bottom: -.8rem;
 /*   
     }
 
