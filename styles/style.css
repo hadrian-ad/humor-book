@@ -1610,8 +1610,8 @@ aside.consider p{
     margin-right: 2%;
     padding-left: 5%;
     margin-bottom: -.8rem;
-/*   
-    }
+    
+}
 
 aside.blockquote {
 
@@ -1721,7 +1721,7 @@ div.frontspiece {
 
 div.frontspiece figure { 
 
-/*    border-top: .1rem solid slategray;*/
+   
 
     margin-left: auto;
     margin-right: auto;
