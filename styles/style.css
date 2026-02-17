@@ -228,8 +228,6 @@ div {
         margin-bottom: 1rem;
 }
 
-
-
 p.indentsmalltext {
     font-size: 1rem;
     text-indent: 5%;
@@ -244,13 +242,13 @@ div.consider {
 /*border-bottom: .1rem solid #AFC8E1;*/
     padding-top: 1.3rem;
     padding-right: 1.2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     padding-left; 1.5%;
     break-inside: avoid;
 }
 
 
-    p.consider{
+    p.consider {
     font-weight: 700;
     font-size: medium;
     color: #254463;
@@ -258,7 +256,7 @@ div.consider {
     padding-left: 0rem;
     }
 
-    p.considertext{
+    p.considertext {
     font-size: medium;
     margin-left: 2rem;
     margin-right: 3rem;
@@ -285,8 +283,6 @@ div.for-instance{
     break-inside: avoid;
 }
 
-
-
 caption{
     text-align: left;
     font-size: large;
@@ -296,12 +292,9 @@ caption{
     
 }
 
-
-
 div.h4{
     margin-left: 1rem;
 }
-
 
   p.for-instance{
     font-weight: 700;
@@ -405,9 +398,6 @@ h1 {
     color: #16432a;
     text-align: center;
     }
-
-
-
   
 h2 {
     
@@ -458,8 +448,6 @@ h5 {
 
 }
 
-
-
 /* pseudo-HEADER FOR FAQ */
     p.faq-question {
         font-size: 1.2rem;
@@ -478,24 +466,12 @@ h5 {
         padding-right: 10%;
     }
 
-/*TEXT STYLES*/
-/*italic in original*/
-/*
-TERM = introduces anchor idea, which is always followed by the expressive idea marked as em.
-EM = (originally stood for emphasis) em marks the expressive idea from the anchor idea. (At first we may think term, but it's actually more like em.) Doesn't always follow this styling, unfortunately. 
-SEM = (originally stood fo Single EMphasis) used to strongly highlight a key idea. 
-SEM-WEAK (originally stood for Single EMphasis-weak) This is like sem, only much less emphasis. 
-OUTCOME CONTRAST ()
 
-emotions = He feels ANGER
-
-example
-callback = We shouldn't be rude. ("WHEN MY SHIT TURNS BLUE")*/
 
 
     figure {
     
-margin-left: .0rem;
+margin-left: 0rem;
         margin-top: 1.5rem;
         break-inside: avoid;
         page-break-inside: avoid;
@@ -810,7 +786,7 @@ div.deeper-look p, div.chapter-summary p {
 div.frontspiece figurecaption {
 
     font-size: 1.05rem;
-        margin-left: 1.6rem;
+        margin-left: 2%;
     margin-right: 1.6rem;
     text-indent: 0rem;
     display: block;
@@ -1444,7 +1420,7 @@ img {
 }
 
 div.deeper-look img {
-margin-left: 3rem;
+margin-left: 4%;
 }
 
 
@@ -1487,8 +1463,13 @@ img.imgverysmall {
 */
 
 img.img-indent /*for images accompanying indented paragraphs*/ {
-    margin-left: 6%;
+    margin-left: 0%;
 }
+
+aside.box img, div.vignette img {
+margin-left: 5%;
+}
+
 
 /*WARNING used in Table of Contents*/
 
@@ -1609,7 +1590,7 @@ aside.consider p{
     margin-left: 3%;
     margin-right: 2%;
     padding-left: 5%;
-    margin-bottom: -.8rem;
+
     
 }
 
