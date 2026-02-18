@@ -500,6 +500,7 @@ margin-top: 1rem;
     
 }
 
+
 figure.end-art figurecaption p {
 
     font-size: medium;
@@ -513,6 +514,17 @@ img.end-art {
 display: block; 
     margin: auto;
     max-width: 95%;
+
+   
+
+}
+
+
+img.end-art-portrait {
+
+display: block; 
+    margin: auto;
+    max-width: 80%;
 
    
 
