@@ -1460,6 +1460,11 @@ img.center-if-screen-is-small {
   }
 }
 
+div.suggested-reading blockquote {
+    
+    margin-left: 4% 
+}
+
 /*
 img.responsive {
   object-fit: scale-down;
