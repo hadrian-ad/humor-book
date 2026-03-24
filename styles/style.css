@@ -226,6 +226,7 @@ div {
         }
     li {
         margin-bottom: 1rem;
+        font-size: medium;
 }
 
 p.indentsmalltext {
@@ -732,12 +733,6 @@ book-title {
     font-style: italic;
 }
 
-
-
-div.vignette book-title {
-    font-style: normal;
-    
-}
 
 
 div.chapter-summary {
@@ -1725,10 +1720,11 @@ div.frontspiece figure {
 
     margin-left: auto;
     margin-right: auto;
-        margin-top: 5%;
-    
-    
+        margin-top: 5%;    
 }
+
+
+
 
 p.headline {
 
